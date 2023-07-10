@@ -1,5 +1,5 @@
 # Spotify_analysis
-![Logo Image](img\logo.png)
+![Logo Image](./img/logo.png)
 ## Introducción:  
 Este proyecto pretende analizar una serie de playlists de Spotify a través de su API y la librería de Python spotipy.  
 
