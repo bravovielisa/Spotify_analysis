@@ -22,3 +22,4 @@ Las playlists han sido seleccionadas con intención de analizar sus característ
 ## Bibliografía:  
 Librería spotipy: https://spotipy.readthedocs.io/en/2.19.0/  
 Características de las pistas: https://help.spotontrack.com/article/what-do-the-audio-features-mean  
+https://towardsdatascience.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50
