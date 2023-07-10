@@ -1,5 +1,4 @@
 # Spotify_analysis
- My final project
 
 ## Introducción:  
 Este proyecto pretende analizar una serie de playlists de Spotify a través de su API y la librería de Python spotipy.  
@@ -21,6 +20,6 @@ Las playlists han sido seleccionadas con intención de analizar sus característ
 **Tempo**: El tempo global estimado de una pista en pulsaciones por minuto (BPM). En terminología musical, el tempo es la velocidad o el ritmo de una pieza determinada y se deriva directamente de la duración media de los tiempos.  
 **Valence**: Medida de 0,0 a 1,0 que describe la positividad musical que transmite una pista. Las pistas con valencia alta suenan más positivas (por ejemplo, felices, alegres, eufóricas), mientras que las pistas con valencia baja suenan más negativas (por ejemplo, tristes, deprimidas, enfadadas).
 
-Bibliografía:
-Librería spotipy: https://spotipy.readthedocs.io/en/2.19.0/
-Características de las pistas: https://help.spotontrack.com/article/what-do-the-audio-features-mean
+## Bibliografía:  
+Librería spotipy: https://spotipy.readthedocs.io/en/2.19.0/  
+Características de las pistas: https://help.spotontrack.com/article/what-do-the-audio-features-mean  
