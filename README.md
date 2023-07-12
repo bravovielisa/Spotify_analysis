@@ -13,7 +13,7 @@ Las playlists han sido seleccionadas con intención de analizar sus característ
 | **duration_ms** | Duración de la pista en milisegundos. | - |
 | **Energy** | Cuanto más se acerque el valor a 1,0 más enérgica es la canción. | 0,0 a 1,0 |
 | **Instrumentalness** | Cuanto más se acerque el valor a 1,0 mayor será la probabilidad de que la pista no contenga voces. | 0,0 a 1,0 |
-| **Key** | La tonalidad de la pista. | 0 = C, 1 = C♯/D♭, 2 = D, y así sucesivamente. Ninguna clave, el valor es -1 |
+| **Key** | La tonalidad de la pista. | 0 = C, 1 = C♯/D♭, 2 = D, y así sucesivamente. Ninguna clave = -1 |
 | **Liveness** | > 0,8 proporciona una gran probabilidad de que la pista sea en directo. | 0,0 a 1,0 |
 | **Loudness** | La sonoridad global de una pista en decibelios (dB). | -60 a 0 db |
 | **Mode** | Mayor se representa con 1 y menor con 0. | 1 o 0 |
@@ -21,6 +21,7 @@ Las playlists han sido seleccionadas con intención de analizar sus característ
 | **Tempo** | Pulsaciones por minuto (BPM) | - |
 | **Valence** | Cuanto más alto más alegre es la pista.  |0,0 a 1,0|
 | **time_signature** | Compáses de "3/4" a "7/4" | 3 y 7 |
+| **Popularity** | Siendo 100 la canción más popular. | 0 a 100 |
  
 **Danceability**: La bailabilidad describe lo adecuada que es una pista para bailar basándose en una combinación de elementos musicales como el tempo, la estabilidad del ritmo, la fuerza del compás y la regularidad general. Un valor de 0,0 es el menos bailable y 1,0 el más bailable.  
 **Energy**: La energía es una medida de 0,0 a 1,0 y representa una medida perceptiva de intensidad y actividad. Normalmente, las pistas energéticas son rápidas, tienen un volumen alto y ruidosas. Por ejemplo, el death metal tiene una energía alta, mientras que un preludio de Bach tiene una puntuación baja en la escala. Las características perceptivas que contribuyen a este atributo incluyen el rango dinámico, el volumen percibido, el timbre, la velocidad de inicio y la entropía general.  
@@ -39,3 +40,4 @@ Las playlists han sido seleccionadas con intención de analizar sus característ
 Librería spotipy: https://spotipy.readthedocs.io/en/2.19.0/  
 Características de las pistas: https://developer.spotify.com/documentation/web-api/reference/get-audio-features
 https://towardsdatascience.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50  
+https://postindustria.com/how-much-data-is-required-for-machine-learning/#:~:text=The%20most%20common%20way%20to,parameters%20in%20your%20data%20set.  
