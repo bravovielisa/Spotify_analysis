@@ -6,10 +6,23 @@ Este proyecto pretende analizar una serie de playlists de Spotify a través de s
 Las playlists han sido seleccionadas con intención de analizar sus características según el estado de ánimo que representan para así poder entrenar un modelo que recomiende una canción según tu estado de ánimo.  
 
 ## Características de las canciones:  
-
-**Acousticness**: Una medida de confianza de 0,0 a 1,0 sobre si la pista es acústica. 1,0 representa una confianza alta en que la pista es acústica.  
+| audio_feature | Descripción | Valores |
+|---|---|---|
+| **Acousticness** | 1,0 representa una confianza alta en que la pista es acústica. | 0,0 a 1,0 |
+| **Danceability** | Un valor de 0,0 es el menos bailable y 1,0 el más bailable. | 0,0 a 1,0 |
+| **duration_ms** | Duración de la pista en milisegundos. | - |
+| **Energy** | Cuanto más se acerque el valor a 1,0 más enérgica es la canción. | 0,0 a 1,0 |
+| **Instrumentalness** | Cuanto más se acerque el valor a 1,0 mayor será la probabilidad de que la pista no contenga voces. | 0,0 a 1,0 |
+| **Key** | La tonalidad de la pista. | 0 = C, 1 = C♯/D♭, 2 = D, y así sucesivamente. Ninguna clave, el valor es -1 |
+| **Liveness** | > 0,8 proporciona una gran probabilidad de que la pista sea en directo. | 0,0 a 1,0 |
+| **Loudness** | La sonoridad global de una pista en decibelios (dB). | -60 a 0 db |
+| **Mode** | Mayor se representa con 1 y menor con 0. | 1 o 0 |
+| **Speechiness** | <0,33 canciones no habladas  0,33 - 0,66 música y voz   >0,66 canciones habladas | 0,0 a 1,0 |
+| **Tempo** | Pulsaciones por minuto (BPM) | - |
+| **Valence** | Cuanto más alto más alegre es la pista.  |0,0 a 1,0|
+| **time_signature** | Compáses de "3/4" a "7/4" | 3 y 7 |
+ 
 **Danceability**: La bailabilidad describe lo adecuada que es una pista para bailar basándose en una combinación de elementos musicales como el tempo, la estabilidad del ritmo, la fuerza del compás y la regularidad general. Un valor de 0,0 es el menos bailable y 1,0 el más bailable.  
-**duration_ms**: Duración de la pista en milisegundos.
 **Energy**: La energía es una medida de 0,0 a 1,0 y representa una medida perceptiva de intensidad y actividad. Normalmente, las pistas energéticas son rápidas, tienen un volumen alto y ruidosas. Por ejemplo, el death metal tiene una energía alta, mientras que un preludio de Bach tiene una puntuación baja en la escala. Las características perceptivas que contribuyen a este atributo incluyen el rango dinámico, el volumen percibido, el timbre, la velocidad de inicio y la entropía general.  
 **Instrumentalness**: Predice si una pista no contiene voces. Los sonidos "ooh" y "aah" se consideran instrumentales en este contexto. Las pistas de rap son claramente "vocales". Cuanto más se acerque el valor a 1,0 mayor será la probabilidad de que la pista no contenga voces. Los valores superiores a 0,5 representan pistas instrumentales, pero la confianza es mayor a medida que el valor se acerca a 1,0.  
 **Key**: La tonalidad de la pista. Los números enteros se asignan a tonos utilizando la notación estándar Pitch Class. Por ejemplo, 0 = C, 1 = C♯/D♭, 2 = D, y así sucesivamente. Si no se detectó ninguna clave, el valor es -1.  
