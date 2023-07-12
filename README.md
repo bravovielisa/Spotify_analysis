@@ -17,7 +17,9 @@ Las playlists han sido seleccionadas con intención de analizar sus característ
 | **Liveness** | > 0,8 proporciona una gran probabilidad de que la pista sea en directo. | 0,0 a 1,0 |
 | **Loudness** | La sonoridad global de una pista en decibelios (dB). | -60 a 0 db |
 | **Mode** | Mayor se representa con 1 y menor con 0. | 1 o 0 |
-| **Speechiness** | <0,33 canciones no habladas  0,33 - 0,66 música y voz   >0,66 canciones habladas | 0,0 a 1,0 |
+| **Speechiness** | <0,33 canciones no habladas 
+0,33 - 0,66 música y voz
+>0,66 canciones habladas | 0,0 a 1,0 |
 | **Tempo** | Pulsaciones por minuto (BPM) | - |
 | **Valence** | Cuanto más alto más alegre es la pista.  |0,0 a 1,0|
 | **time_signature** | Compáses de "3/4" a "7/4" | 3 y 7 |
