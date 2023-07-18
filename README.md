@@ -41,3 +41,4 @@ Librería spotipy: https://spotipy.readthedocs.io/en/2.19.0/
 Características de las pistas: https://developer.spotify.com/documentation/web-api/reference/get-audio-features
 https://towardsdatascience.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50  
 https://postindustria.com/how-much-data-is-required-for-machine-learning/#:~:text=The%20most%20common%20way%20to,parameters%20in%20your%20data%20set.  
+Gifs: https://medium.com/@nuriaalcarazesteve/spotify-nueva-funcionalidad-8ad74cbad77e
