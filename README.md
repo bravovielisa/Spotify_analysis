@@ -4,6 +4,15 @@ Este proyecto pretende analizar una serie de playlists de Spotify a través de s
 
 
 Las playlists han sido seleccionadas con intención de analizar sus características según el estado de ánimo que representan para así poder entrenar un modelo que recomiende una canción según tu estado de ánimo.  
+## Documentos:  
+Carpetas:  
+"Notebooks": Aquí se encuentran los Jupyter Notebooks que he ido elaborando con explicaciones detalladas de las fases.  
+"data": Donde se alojan los csv.  
+"img": Donde se alojan las imagenes y gifs utilizados para la app.  
+"PowerBi": Aquí aparecen tanto el dashboard que aparece en la app como otro dashboard que en principio se iba a utilizar para la app, pero uno de los gráficos no soportaba la publicación en web.  
+Archivos:  
+app.py: archivo python donde se aloja la aplicación en streamlit.  
+
 
 ## Características de las canciones:  
 | audio_feature | Descripción | Valores |
