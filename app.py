@@ -41,6 +41,7 @@ image4 = Image.open('img/Fear.PNG')
 image5 = Image.open('img/Anger.PNG')
 image6 = Image.open('img/Focus.PNG')
 image7 = Image.open('img/Keys.PNG')
+image8 = Image.open('img/modelperf.PNG')
 #------Inicio-------#
 
 
@@ -344,5 +345,43 @@ if selected_option == 'EDA':
 
         st.markdown('''📈 Hay una :green[**fuerte correlación positiva**] con la variable "energy" y :green[**correlación positiva**] con las variables "popularity", "danceability" y "loudness".  
                     📉 Existe una :red[**correlación negativa**] con las variables "acousticness" e "instrumentalness"''')
-           
+#--------------------------------------EDA--------------------------------------#            
+#--------------------------------------Machine Learning--------------------------------------#     
+if selected_option == 'Machine Learning':
+    title_html5 = """
+            <h1 style="color: #1db954;">Algoritmo PCA 🤖:</h1>"""
+    st.markdown(title_html5, unsafe_allow_html=True)
+    st.markdown('''El PCA (Principal Component Analysis) identifica la dimensión intrínseca de un conjunto de datos.  
+    En otras palabras, identifica el menor número de características necesarias para realizar una predicción precisa.  
+    Un conjunto de datos puede tener muchas características, pero no todas son esenciales para la predicción.  
+    Las características que se conservan son las que tienen una varianza significativa.  
+    El mapeo lineal de los datos a un espacio de menor dimensión se realiza de forma que se maximice la varianza de los datos.  
+    PCA asume que las características con baja varianza son irrelevantes y las características con alta varianza son informativas.''')  
+    st.write('Para saber más sobre este logaritmo consulta: https://www.jcchouinard.com/pca-with-python/#PCA_Examples_From_This_Tutorial')
     
+    
+    title_html6 = """
+            <h1 style="color: #1db954;">Utilizando la IA: AKKIO 🤖:</h1>"""
+    st.markdown(title_html6, unsafe_allow_html=True)
+    
+    st.write('''Akkio es una herramienta que utiliza inteligencia artificial para predecir resultados basándose en datos existentes.  
+             He creado un modelo de predicción utilizando Akkio basado en XGBoost.  
+             XGBoost (eXtreme Gradient Boosting) es una potente biblioteca de código abierto para el aprendizaje automático que se ha convertido en uno de los algoritmos más populares y efectivos para problemas de clasificación y regresión. Es una implementación mejorada del algoritmo de Gradient Boosting, que combina múltiples modelos débiles (Gradient Descent, Construcción de árboles, Función de costo, regularización L1 (Lasso) y L2 (Ridge), Boosting y Gradient Boosting) para formar un modelo fuerte.''')
+    def main():
+        st.title("Akkio modelo de predicción (XGBoost o eXtreme Gradient Boosting)")
+        akkio_embed_code = """
+        <iframe width="500" height="500" src="https://app.akkio.com/deployments/cquqWi7bO2cYT9drVSYc"></iframe>"""
+        st.markdown(akkio_embed_code, unsafe_allow_html=True)
+
+    if __name__ == "__main__":
+        main()
+    
+    
+    st.write('Este modelo tiene un accuracy del 88,2% se puede ver en la siguiente tabla de rendimiento: ')    
+    col1, col2, col3 = st.columns(3)
+    with col1:
+        st.write('')
+    with col2:    
+        st.image(image8, width=600)
+    with col3:
+        st.write('')

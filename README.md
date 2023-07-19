@@ -46,3 +46,4 @@ Powerbi:
 Logos: https://developer.spotify.com/documentation/design  
 Iconos: https://www.freepik.com/icon/group_1464029#position=95&page=4&term=mood&fromView=keyword  
 Fondo lienzo: https://www.pexels.com/photo/grayscale-piano-keys-159420/  
+Akkio: https://app.akkio.com/
