@@ -66,6 +66,7 @@ st.sidebar.markdown("</div>", unsafe_allow_html=True)
 
 #Dataframes
 df = pd.read_csv('data/datos.csv')
+df1 = pd.read_csv('data/no_lej_data.csv')
 
 #--------------------gráficas----------------------------#
 # Nulos:
@@ -85,8 +86,17 @@ fig2 = px.bar(grouped_df, x='artist_name', y='count', color='Mood', barmode='sta
              labels={'artist_name': 'Artista', 'count': 'Nº de veces que aparece'},
              title='Top 10 artistas más repetidos por estado de ánimo')
 fig2.update_layout(xaxis={'categoryorder':'total descending'}) #Así ordenamos el grafico de barras
+#Correlaciones
+plt.figure(figsize=(10, 8))
+# define the mask to set the values in the upper triangle to True
+mask = np.triu(np.ones_like(df1.select_dtypes(include=[np.number]).corr(), dtype=bool))
+heatmap = sns.heatmap(df1.select_dtypes(include=[np.number]).corr(), mask=mask, vmin=-1, vmax=1, annot=True, cmap='PiYG')
+heatmap.set_title('Correlaciones', fontdict={'fontsize':18}, pad=16)
+
 
 #--------------------gráficas----------------------------#
+
+
 
 
 
@@ -287,13 +297,14 @@ if selected_option == 'Importación y preprocesamiento':
 #--------------------------------------Importación--------------------------------------#        
 #--------------------------------------EDA--------------------------------------#       
 if selected_option == 'EDA':
+    title_html4 = """
+            <h1 style="color: #1db954;">EDA (exploratory data analysis) 🔬:</h1>"""
+    st.markdown(title_html4, unsafe_allow_html=True)
+    
     page_names=['🗃️ Variables categóricas', '🔢 Variables numéricas']
     page= st.radio('¿Qué quieres analizar?',page_names)
-    if page =='🗃️ Variables categóricas':
-        title_html4 = """
-            <h1 style="color: #1db954;">EDA (exploratory data analysis) 🔬:</h1>"""
-        st.markdown(title_html4, unsafe_allow_html=True)
-        
+    
+    if page =='🗃️ Variables categóricas':               
         st.subheader('Análisis variables categóricas:')
         st.write('Tras importar el archivo "data" creado en el apartado de preprocesamiento, vemos que contamos con 465 datos distribuidos de la siguiente manera:')
         st.plotly_chart(fig1)
@@ -308,6 +319,30 @@ if selected_option == 'EDA':
         
         # En vez de usar fig.show() como estamos en streamlit utilizamos:
         st.plotly_chart(fig2, use_container_width=True)
+        
     if page =='🔢 Variables numéricas':
-        st.write('App Powerbi')
+        def main():
+            st.title("Aplicación Power BI")
+            powerbi_embed_code = """
+            <iframe title="Report Section" width="1620" height="900" src="https://app.fabric.microsoft.com/view?r=eyJrIjoiNzZmZmFiNmEtN2E3ZS00OGY3LWJkOTEtYmU1OWI0NTEzMTZhIiwidCI6IjhhZWJkZGI2LTM0MTgtNDNhMS1hMjU1LWI5NjQxODZlY2M2NCIsImMiOjl9" frameborder="0" allowFullScreen="true"></iframe>    """
+            st.markdown(powerbi_embed_code, unsafe_allow_html=True)
+
+        if __name__ == "__main__":
+            main()
+
+        st.subheader('Correlaciones:')
+        st.write('''La variable "valence", al ser la que marca supuestamente el estado de ánimo de las canciones, nos indicará aquellas variables relacionadas con los estados de ánimo.  
+                 Es decir, aquellas variables que tengan correlación con "valence" tendrán relación con el estado de ánimo.''')     
+        st.write('')
+        col1, col2 = st.columns(2)
+        with col1:
+            st.pyplot(plt)
+        with col2:    
+            st.write('')
+        
+        st.write('Según el gráfico podemos interpretar que:')
+
+        st.markdown('''📈 Hay una :green[**fuerte correlación positiva**] con la variable "energy" y :green[**correlación positiva**] con las variables "popularity", "danceability" y "loudness".  
+                    📉 Existe una :red[**correlación negativa**] con las variables "acousticness" e "instrumentalness"''')
+           
     

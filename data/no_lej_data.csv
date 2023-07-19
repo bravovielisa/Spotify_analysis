@@ -1,0 +1,312 @@
+Mood,song_name,artist_name,popularity,danceability,energy,key,loudness,mode,speechiness,acousticness,instrumentalness,liveness,valence,tempo,duration_ms,song_uri
+Happy,I'm Good (Blue),David Guetta,95,0.561,0.965,7,-3.673,0,0.0343,0.00383,7.07e-06,0.371,0.304,128.04,175238,spotify:track:4uUG5RXrOk84mYEfFvj3cK
+Happy,Dance The Night (From Barbie The Album),Dua Lipa,94,0.671,0.845,11,-4.93,0,0.048,0.0207,0.0,0.329,0.775,110.056,176579,spotify:track:1vYXt7VSjH9JIM5oRRo7vA
+Happy,Blinding Lights,The Weeknd,94,0.514,0.73,1,-5.934,1,0.0598,0.00146,9.54e-05,0.0897,0.334,171.005,200040,spotify:track:0VjIjW4GlUZAMYd2vXMi3b
+Happy,Watermelon Sugar,Harry Styles,92,0.548,0.816,0,-4.209,1,0.0465,0.122,0.0,0.335,0.557,95.39,174000,spotify:track:6UelLqGlWMcVH1E5c4H7lY
+Happy,Players,Coi Leray,90,0.954,0.516,6,-5.817,1,0.16,0.03,7.54e-06,0.0504,0.624,105.001,139560,spotify:track:6UN73IYd0hZxLi8wFPMQij
+Happy,My Stupid Heart,Walk off the Earth,79,0.745,0.681,7,-7.91,1,0.0361,0.0696,0.0,0.164,0.613,115.0,160300,spotify:track:3UZDl7g2r84o1b5marUjfK
+Happy,Shivers,Ed Sheeran,89,0.788,0.859,2,-2.724,1,0.0856,0.281,0.0,0.0424,0.822,141.02,207853,spotify:track:50nfwKoDiSYg8zOCREWAm5
+Happy,Made You Look,Meghan Trainor,88,0.838,0.525,10,-3.562,1,0.0665,0.345,1.92e-06,0.0771,0.884,144.981,134256,spotify:track:0QHEIqNKsMoOY5urbzN48u
+Happy,If We Ever Broke Up,Mae Stephens,88,0.898,0.732,7,-3.982,1,0.0427,0.621,1.29e-05,0.0908,0.96,115.955,142759,spotify:track:6maTPqynTmrkWIralgGaoP
+Happy,Uptown Funk (feat. Bruno Mars),Mark Ronson,87,0.856,0.609,0,-7.223,1,0.0824,0.00801,8.15e-05,0.0344,0.928,114.988,269667,spotify:track:32OlwWuMpZ6b0aN2RZOeMS
+Happy,Pepas,Farruko,87,0.762,0.766,7,-3.955,1,0.0343,0.00776,6.98e-05,0.128,0.442,130.001,287120,spotify:track:5fwSHlTEWpluwOM0Sxnh5k
+Happy,Peaches (feat. Daniel Caesar & Giveon),Justin Bieber,86,0.677,0.696,0,-6.181,1,0.119,0.321,0.0,0.42,0.464,90.03,198082,spotify:track:4iJyoBOLtHqaGxP12qzhQI
+Happy,THATS WHAT I WANT,Lil Nas X,86,0.737,0.846,1,-4.51,0,0.22,0.00614,0.0,0.0486,0.546,87.981,143901,spotify:track:0e8nrvls4Qqv5Rfa2UhqmO
+Happy,Whistle (feat. Calum Scott),Jax Jones,85,0.701,0.88,10,-4.56,0,0.0358,0.182,7.33e-06,0.0649,0.623,124.039,181958,spotify:track:4q05KbxYZ5JdkmrletgPjF
+Happy,Queen of Kings,Alessandra,85,0.563,0.908,4,-4.25,0,0.0868,0.0696,0.0,0.328,0.171,125.972,147980,spotify:track:14LdhxElpZS0rKVV4nxtdA
+Happy,You Need To Calm Down,Taylor Swift,85,0.771,0.671,2,-5.617,1,0.0553,0.00929,0.0,0.0637,0.714,85.026,171360,spotify:track:6RRNNciQGZEXnqk8SQ9yv5
+Happy,Dynamite,BTS,85,0.746,0.765,6,-4.41,0,0.0993,0.0112,0.0,0.0936,0.737,114.044,199054,spotify:track:5QDLhrAOJJdNAmCTJ8xMyW
+Happy,"Happy - From ""Despicable Me 2""",Pharrell Williams,84,0.647,0.822,5,-4.662,0,0.183,0.219,0.0,0.0908,0.962,160.019,232720,spotify:track:60nZcImufyMA1MKQY3dcCH
+Happy,Rock My Body,R3HAB,84,0.662,0.821,2,-4.103,0,0.13,0.202,0.0,0.522,0.47,124.077,137419,spotify:track:6pb5DtlAeG95dNQLHiArRU
+Happy,2002,Anne-Marie,84,0.697,0.683,1,-2.881,0,0.117,0.0372,0.0,0.137,0.603,96.133,186987,spotify:track:2BgEsaKNfHUdlh97KmvFyo
+Happy,Sucker,Jonas Brothers,84,0.842,0.734,1,-5.065,0,0.0588,0.0427,0.0,0.106,0.952,137.958,181027,spotify:track:22vgEDb5hykfaTwLuskFGD
+Happy,Sunshine,OneRepublic,84,0.697,0.875,5,-4.621,1,0.034,0.137,0.0,0.28,0.774,140.069,163855,spotify:track:5r43qanLhUCdBj8HN3fa6B
+Happy,Kings & Queens,Ava Max,84,0.637,0.69,1,-4.057,0,0.0405,0.00786,0.0,0.124,0.457,129.857,162399,spotify:track:7a53HqqArd4b9NF4XAmlbI
+Happy,Green Green Grass,George Ezra,84,0.685,0.738,8,-4.413,1,0.0595,0.0695,0.0,0.128,0.8,112.972,167614,spotify:track:4N5s8lPTsjI9EGP7K4SXzB
+Happy,My Universe,Coldplay,84,0.588,0.701,9,-6.39,1,0.0402,0.00813,0.0,0.2,0.443,104.988,228000,spotify:track:3FeVmId7tL5YN8B7R3imoM
+Happy,MONTERO (Call Me By Your Name),Lil Nas X,83,0.593,0.503,8,-6.725,0,0.22,0.293,0.0,0.405,0.71,178.781,137704,spotify:track:1SC5rEoYDGUK4NfG82494W
+Happy,Budapest,George Ezra,84,0.717,0.455,5,-8.303,1,0.0276,0.0846,0.0,0.11,0.389,127.812,200733,spotify:track:2ixsaeFioXJmMgkkbd4uj1
+Happy,Crazy What Love Can Do,David Guetta,83,0.601,0.713,4,-3.758,0,0.0449,0.0282,0.0,0.158,0.464,122.872,169756,spotify:track:1WCEAGGRD066z2Q89ObXTq
+Happy,About Damn Time,Lizzo,83,0.836,0.743,10,-6.305,0,0.0656,0.0995,0.0,0.335,0.722,108.966,191822,spotify:track:1PckUlxKqWQs3RlWXVBLw3
+Happy,Castle on the Hill,Ed Sheeran,83,0.461,0.834,2,-4.868,1,0.0989,0.0232,1.14e-05,0.14,0.471,135.007,261154,spotify:track:6PCUP3dWmTjcTtXY02oFdT
+Happy,Bam Bam (feat. Ed Sheeran),Camila Cabello,83,0.756,0.697,8,-6.377,1,0.0401,0.182,0.0,0.333,0.956,94.996,206071,spotify:track:0QBzMgT7NIeoCYy3sJCof1
+Happy,Heaven,Niall Horan,83,0.57,0.756,5,-3.394,1,0.0257,0.0497,0.0,0.33,0.72,91.972,186043,spotify:track:5FQ77Cl1ndljtwwImdtjMy
+Happy,Head & Heart (feat. MNEK),Joel Corry,83,0.734,0.874,8,-3.158,1,0.0662,0.168,1.14e-05,0.0489,0.905,122.953,166028,spotify:track:6cx06DFPPHchuUAcTxznu9
+Happy,Señorita,Shawn Mendes,82,0.759,0.54,9,-6.039,0,0.0287,0.037,0.0,0.0945,0.75,116.947,190960,spotify:track:0TK2YIli7K1leLovkQiNik
+Happy,ME! (feat. Brendon Urie of Panic! At The Disco),Taylor Swift,82,0.61,0.83,0,-4.105,1,0.0571,0.033,0.0,0.118,0.728,182.162,193000,spotify:track:2Rk4JlNc2TPmZe2af99d45
+Happy,Where Did You Go? (feat. MNEK),Jax Jones,82,0.763,0.782,7,-4.541,0,0.0346,0.182,7.08e-06,0.293,0.502,127.034,177689,spotify:track:3sa06xVNmLLYIxdNNmVQN8
+Happy,WATATI (feat. Aldo Ranks) [From Barbie The Album],KAROL G,82,0.893,0.851,3,-5.342,0,0.0979,0.145,6.49e-05,0.319,0.959,110.002,166882,spotify:track:6MZi5j60L80SZLBxN0bv8s
+Happy,Love Lost,Mac Miller,82,0.735,0.812,2,-4.417,1,0.151,0.528,0.0,0.186,0.584,109.829,162876,spotify:track:2z9iuAxKv4TTeCrPAxxKg9
+Happy,Waffle House,Jonas Brothers,82,0.729,0.763,10,-4.407,1,0.0363,0.033,1e-06,0.192,0.864,126.002,145441,spotify:track:5iE3eUH2WGCXcE2xr6DEmU
+Happy,Rasputin,Majestic,82,0.758,0.913,6,-2.926,0,0.113,0.00364,6.92e-05,0.193,0.658,128.04,186210,spotify:track:0b18g3G5spr4ZCkz7Y6Q0Q
+Happy,Acapulco,Jason Derulo,82,0.774,0.792,10,-4.021,1,0.0523,0.051,0.0,0.155,0.507,122.062,139672,spotify:track:3eJH2nAjvNXdmPfBkALiPZ
+Happy,Butter,BTS,81,0.759,0.459,8,-5.187,1,0.0948,0.00323,0.0,0.0788,0.695,109.997,164952,spotify:track:6jjYDGxVJsWS0a5wlVF5vS
+Happy,Shower,Becky G,81,0.699,0.529,2,-7.548,1,0.0487,0.0317,3.59e-05,0.285,0.121,119.987,206167,spotify:track:3DmW6y7wTEYHJZlLo1r6XJ
+Happy,Better Days (NEIKED x Mae Muller x Polo G),NEIKED,81,0.717,0.671,0,-5.077,0,0.0337,0.0018,2.54e-06,0.0921,0.699,110.054,160657,spotify:track:6f5ExP43esnvdKPddwKXJH
+Happy,2 Be Loved (Am I Ready),Lizzo,81,0.721,0.769,7,-4.111,1,0.105,0.0922,0.0,0.0817,0.915,155.932,187108,spotify:track:2rmwqU7yzTvzkiaRV53DpT
+Happy,I'm Not Here To Make Friends,Sam Smith,81,0.698,0.895,0,-4.439,1,0.0628,0.172,1.45e-05,0.409,0.838,114.914,229605,spotify:track:3i0FkJYlU4MFfYkjFHXXAM
+Happy,Don't Start Now,Dua Lipa,81,0.794,0.793,11,-4.521,0,0.0842,0.0125,0.0,0.0952,0.677,123.941,183290,spotify:track:6WrI0LAC5M1Rw2MnX2ZvEg
+Happy,Remember,Becky Hill,80,0.612,0.862,8,-2.903,1,0.037,0.041,0.0,0.0907,0.354,123.849,160766,spotify:track:4laAKIq9ZxBCwf99rauPYb
+Happy,I Don't Care (with Justin Bieber),Ed Sheeran & Justin Bieber,80,0.798,0.675,6,-5.041,1,0.0442,0.0912,0.0,0.0894,0.842,101.956,219947,spotify:track:3HVWdVOQ0ZA45FuZGSfvns
+Happy,Alone (with Nicki Minaj),Kim Petras,80,0.681,0.513,3,-6.643,0,0.0388,0.069,0.0,0.125,0.167,136.985,185113,spotify:track:7kOletJ0Q5H4MWe7cfeZXP
+Happy,My Head & My Heart,Ava Max,80,0.614,0.934,9,-3.709,0,0.07,0.0697,0.0,0.121,0.436,116.001,174760,spotify:track:1KixkQVDUHggZMU9dUobgm
+Happy,Heartbreak Anthem (with David Guetta & Little Mix),Galantis,79,0.595,0.784,1,-4.878,1,0.102,0.216,0.0,0.0608,0.479,124.111,183726,spotify:track:5K6Ssv4Z3zRvxt0P6EKUAP
+Happy,I Forgot That You Existed,Taylor Swift,79,0.664,0.316,5,-10.345,1,0.519,0.298,2.03e-06,0.0812,0.541,92.875,170640,spotify:track:43rA71bccXFGD4C8GOpIlN
+Happy,Higher Love,Kygo,79,0.693,0.678,8,-7.159,1,0.0324,0.0151,5.71e-06,0.101,0.404,103.952,228267,spotify:track:6oJ6le65B3SEqPwMRNXWjY
+Happy,Dancing In The Moonlight (feat. NEIMY),Jubël,79,0.659,0.615,11,-5.865,0,0.0644,0.27,0.0,0.187,0.193,119.843,164010,spotify:track:4GSDkZt7GcmzBWmsMcpaVO
+Happy,Take You Dancing,Jason Derulo,79,0.789,0.711,2,-4.248,1,0.041,0.0332,0.0,0.0876,0.753,112.985,190306,spotify:track:59qrUpoplZxbIZxk6X0Bm3
+Happy,Car Keys (Ayla),Alok,79,0.675,0.986,9,-4.606,0,0.0974,0.0868,4.96e-06,0.128,0.57,126.004,146501,spotify:track:00E0Z2jrF7reoHps4zcbWQ
+Happy,Fancy Like,Walker Hayes,79,0.647,0.765,1,-6.459,1,0.06,0.111,0.0,0.315,0.855,79.994,161853,spotify:track:58UKC45GPNTflCN6nwCUeF
+Happy,3 Nights,Dominic Fike,79,0.815,0.518,7,-6.594,0,0.0897,0.223,0.0,0.104,0.877,151.891,177667,spotify:track:1tNJrcVe6gwLEiZCtprs1u
+Happy,Love Grows (Where My Rosemary Goes),Edison Lighthouse,79,0.568,0.824,9,-4.613,1,0.0299,0.403,0.0,0.0855,0.753,108.625,174760,spotify:track:5Ts1DYOuouQLgzTaisxWYh
+Happy,Dance Monkey,Tones And I,78,0.824,0.587,6,-6.401,0,0.0937,0.69,0.000105,0.149,0.514,98.029,209438,spotify:track:2N8m6CYs74qQO4mjVcXO30
+Happy,AOK,Tai Verdes,78,0.731,0.626,11,-6.919,1,0.0805,0.125,0.0,0.183,0.862,82.488,173640,spotify:track:1sx0XsWUusUoPstbvokZjP
+Happy,Hot In It,Tiësto,78,0.748,0.841,7,-5.08,1,0.177,0.00445,1.33e-06,0.0413,0.717,123.045,129817,spotify:track:3Z7CaxQkqbIs1rewKi6v4W
+Happy,"CAN'T STOP THE FEELING! (from DreamWorks Animation's ""TROLLS"")",Justin Timberlake,78,0.669,0.832,0,-5.721,1,0.0682,0.0106,0.0,0.0968,0.7,113.035,237547,spotify:track:1WkMMavIMc4JZ8cfMmxHkI
+Happy,Magic In The Hamptons (feat. Lil Yachty),Social House,77,0.769,0.479,1,-5.339,1,0.0385,0.66,0.0,0.0914,0.803,96.051,164640,spotify:track:2Yer0p7uB2lVBUAtANuuQp
+Happy,Never Gonna Not Dance Again,P!nk,77,0.668,0.802,5,-4.005,0,0.0917,0.0273,0.0,0.163,0.769,113.796,225789,spotify:track:6sZo5nJIsFWXefRCCexpx0
+Happy,Chemical,Post Malone,77,0.48,0.895,2,-4.872,1,0.0426,0.00183,0.0,0.111,0.356,169.945,184005,spotify:track:4qzEjmuz380jeiBJp31oDY
+Happy,Jerusalema (feat. Nomcebo Zikode),Master KG,77,0.88,0.483,1,-7.012,1,0.0505,0.0185,8.68e-06,0.0607,0.827,124.009,342613,spotify:track:2MlOUXmcofMackX3bxfSwi
+Happy,Anyone For You (Tiger Lily),George Ezra,77,0.662,0.807,10,-3.285,1,0.0411,0.293,3.55e-06,0.189,0.772,103.031,187682,spotify:track:44JSreJxvgl3CxLo5MoQL0
+Happy,Dive,Hot Shade,76,0.654,0.787,4,-4.999,1,0.0502,0.00515,0.0,0.144,0.409,123.979,164490,spotify:track:2aXC0fD6qziwlOZZqhCqTd
+Happy,Sweetest Pie,Megan Thee Stallion,76,0.814,0.628,7,-7.178,1,0.221,0.167,0.0,0.101,0.677,123.977,201334,spotify:track:7mFj0LlWtEJaEigguaWqYh
+Happy,What A Man Gotta Do,Jonas Brothers,76,0.852,0.698,9,-7.206,1,0.0629,0.00839,1.03e-06,0.0773,0.324,113.039,180645,spotify:track:4wNIkl5XGiAACjFBlDWuSd
+Happy,Cover Me In Sunshine,P!nk,76,0.476,0.594,5,-6.879,1,0.135,0.0599,0.0,0.0785,0.314,159.702,141050,spotify:track:6Tio0ZoDeSQnI7EBAqWer2
+Happy,Run,OneRepublic,76,0.682,0.72,11,-8.173,0,0.0381,0.326,0.0,0.148,0.673,117.003,169011,spotify:track:2UbVnbE5FH6008mAm6Mmgw
+Happy,Beautiful People (feat. Khalid),Ed Sheeran,76,0.64,0.648,5,-8.113,0,0.187,0.124,0.0,0.0802,0.548,92.977,197867,spotify:track:4evmHXcjt3bTUHD1cvny97
+Happy,This Feeling,The Chainsmokers,76,0.575,0.571,1,-7.906,1,0.0439,0.0558,0.0,0.0912,0.449,105.049,197947,spotify:track:4NBTZtAt1F13VvlSKe6KTl
+Happy,Betty (Get Money),Yung Gravy,76,0.723,0.772,1,-6.784,1,0.0792,0.00524,1.15e-05,0.367,0.58,102.004,146471,spotify:track:4cacyP5c3PMlfnyjpg13xW
+Happy,Rain On Me (with Ariana Grande),Lady Gaga,76,0.672,0.855,9,-3.764,1,0.0397,0.021,0.0,0.323,0.646,123.056,182200,spotify:track:24ySl2hOPGCDcxBxFIqWBu
+Happy,Higher Power,Coldplay,76,0.507,0.828,10,-6.023,1,0.0449,0.00711,2.44e-05,0.261,0.489,178.032,211295,spotify:track:0939D7aT18uBDS2MTjWzct
+Happy,Iko Iko (My Bestie),Justin Wellington,76,0.862,0.753,5,-5.356,1,0.0625,0.131,2.01e-06,0.077,0.827,105.039,182857,spotify:track:7MC4XR9M9amdmKQr2iDF7i
+Happy,Woke Up in Love,Kygo,75,0.643,0.585,2,-5.994,1,0.0369,0.225,0.0,0.0927,0.188,106.015,216873,spotify:track:21H0pUV2uPIPcFnFhgTBjo
+Happy,Special (feat. SZA),Lizzo,75,0.464,0.724,7,-5.019,1,0.0705,0.0188,0.0,0.679,0.303,82.526,174749,spotify:track:0rc1HCVoReqzzXF9jssqZk
+Sad,When I Was Your Man,Bruno Mars,91,0.612,0.28,0,-8.648,1,0.0434,0.932,0.0,0.088,0.387,72.795,213827,spotify:track:0nJW01T7XtvILxQgC5J7Wh
+Sad,When We Were Young,Adele,77,0.376,0.595,3,-5.936,1,0.0496,0.303,0.0,0.095,0.265,144.361,290900,spotify:track:7GgWAITsYJaRM3r50rfh5w
+Sad,Only Love Can Hurt Like This,Paloma Faith,86,0.566,0.885,8,-4.528,1,0.0818,0.0958,9.97e-05,0.334,0.304,90.99,232893,spotify:track:62ke5zFUJN6RvtXZgVH0F8
+Sad,Slide Away,Miley Cyrus,70,0.534,0.538,5,-6.673,1,0.0327,0.173,2.82e-06,0.248,0.289,148.016,233654,spotify:track:6QQtHdz4PNJWQX4nrAQGC9
+Sad,Another Love,Tom Odell,94,0.445,0.537,4,-8.532,0,0.04,0.695,1.65e-05,0.0944,0.131,122.769,244360,spotify:track:3JvKfv6T31zO0ini8iNItO
+Sad,Too Good At Goodbyes,Sam Smith,88,0.681,0.372,5,-8.237,1,0.0432,0.64,0.0,0.169,0.476,91.873,201000,spotify:track:1mXVgsBdtIVeCLJnSnmtdV
+Sad,Iris,The Goo Goo Dolls,87,0.315,0.715,11,-8.072,0,0.0362,0.00125,7.97e-06,0.0942,0.497,155.925,289533,spotify:track:6Qyc6fS4DsZjB2mRW9DsQs
+Sad,Easy On Me,Adele,86,0.604,0.366,5,-7.519,1,0.0282,0.578,0.0,0.133,0.13,141.981,224695,spotify:track:0gplL1WMoJ6iYaPgMCL0gX
+Sad,Lose You To Love Me,Selena Gomez,84,0.488,0.343,4,-8.985,1,0.0436,0.556,0.0,0.21,0.0978,102.819,206459,spotify:track:4l0Mvzj72xxOpRrp6h8nHi
+Sad,Dancing On My Own,Calum Scott,83,0.681,0.174,1,-8.745,1,0.0315,0.837,3.35e-05,0.0983,0.231,112.672,260285,spotify:track:2BOqDYLOJBiMOXShCV1neZ
+Sad,Stay With Me,Sam Smith,87,0.418,0.42,0,-6.444,1,0.0414,0.588,6.39e-05,0.11,0.184,84.094,172724,spotify:track:5Nm9ERjJZ5oyfXZTECKmRt
+Sad,I Fall Apart,Post Malone,83,0.556,0.538,8,-5.408,0,0.0382,0.0689,0.0,0.196,0.291,143.95,223347,spotify:track:75ZvA4QfFiZvzhj2xkaWAh
+Sad,July,Noah Cyrus,83,0.708,0.186,9,-8.953,0,0.042,0.868,0.0,0.0779,0.322,72.541,156106,spotify:track:6J2LdBN97cDWn0MLxYh9HB
+Sad,Happier,Ed Sheeran,82,0.522,0.385,0,-7.355,1,0.0288,0.536,0.0,0.135,0.236,89.792,207520,spotify:track:2RttW7RAu5nOAfq6YFvApB
+Sad,Drops of Jupiter (Tell Me),Train,82,0.481,0.638,0,-5.862,1,0.0276,0.153,0.0,0.154,0.497,79.064,259933,spotify:track:2hKdd3qO7cWr2Jo0Bcs0MA
+Sad,Landslide,Fleetwood Mac,82,0.414,0.161,7,-22.32,0,0.0318,0.883,0.000223,0.117,0.423,159.375,199493,spotify:track:5ihS6UUlyQAfmp48eSkxuQ
+Sad,Be Alright,Dean Lewis,82,0.553,0.586,11,-6.319,1,0.0362,0.697,0.0,0.0813,0.443,126.684,196373,spotify:track:3EPXxR3ImUwfayaurPi3cm
+Sad,Love Of My Life,Harry Styles,81,0.555,0.536,7,-8.233,1,0.0452,0.669,0.0,0.0623,0.203,118.057,191638,spotify:track:1mw0RgNXIpYRyyCdBQbLgA
+Sad,You Are The Reason,Calum Scott,82,0.329,0.235,10,-7.699,1,0.0303,0.918,0.0,0.137,0.22,171.006,204326,spotify:track:69vToJ9BMbbLlFZo7k7A7B
+Sad,What A Time (feat. Niall Horan),Julia Michaels,81,0.516,0.467,0,-6.184,1,0.0302,0.662,0.0,0.0853,0.386,132.861,173307,spotify:track:5WtfUKzXircvW8l5aaVZWT
+Sad,Summertime Sadness,Lana Del Rey,79,0.566,0.647,1,-6.815,0,0.0335,0.0477,0.0,0.121,0.22,111.96,264773,spotify:track:1Ist6PR2BZR3n2z2Y5R6S1
+Sad,Let Her Go,Passenger,79,0.479,0.545,7,-7.346,1,0.0688,0.365,0.0,0.0963,0.243,74.897,252733,spotify:track:1KxwZYyzWNyZSRyErj2ojT
+Sad,In My Life - Remastered 2009,The Beatles,79,0.688,0.435,9,-11.359,1,0.0323,0.449,0.0,0.113,0.435,103.239,146333,spotify:track:3KfbEIOC7YIv90FIfNSZpo
+Sad,It'll Be Okay,Shawn Mendes,78,0.398,0.286,7,-11.881,1,0.033,0.616,0.000146,0.0912,0.0666,78.262,222800,spotify:track:2KnLkZ3z7PO3kgVGHGqDpD
+Sad,Jealous,Labrinth,78,0.439,0.153,1,-8.95,1,0.0479,0.874,0.0,0.107,0.104,116.76,287693,spotify:track:4G92yYrUs0cvY7G41YRI0z
+Sad,Supermarket Flowers,Ed Sheeran,78,0.589,0.242,6,-10.517,1,0.0442,0.914,0.0,0.0887,0.257,89.749,221107,spotify:track:4VuS959DSpr82t3qBqCrWG
+Sad,Everything Has Changed (feat. Ed Sheeran) (Taylor’s Version),Taylor Swift,78,0.498,0.61,6,-5.098,1,0.0363,0.271,0.0,0.223,0.474,79.918,245427,spotify:track:7qEUFOVcxRI19tbT68JcYK
+Sad,Breakeven,The Script,77,0.63,0.696,10,-4.501,1,0.0242,0.144,0.0,0.0835,0.491,94.034,261427,spotify:track:285hMzLhJwHVLe9QT9qilk
+Sad,Hurt,Johnny Cash,77,0.534,0.392,9,-7.636,0,0.0267,0.649,0.000227,0.0948,0.163,90.379,216533,spotify:track:28cnXtME493VX9NOw9cIUh
+Sad,Love You Anyway,Luke Combs,77,0.532,0.489,4,-7.419,1,0.0311,0.149,0.0,0.237,0.32,139.807,229627,spotify:track:3qXsX3mYSsD1DmAvc3PE3N
+Sad,Liability,Lorde,76,0.587,0.229,10,-11.254,0,0.128,0.92,0.0,0.1,0.379,75.67,171728,spotify:track:6Kkt27YmFyIFrcX3QXFi2o
+Sad,Jar of Hearts,Christina Perri,76,0.349,0.348,3,-6.142,1,0.0316,0.726,0.0,0.12,0.0886,74.541,246587,spotify:track:0HZhYMZOcUzZKSFwPOti6m
+Sad,One More Light,Linkin Park,76,0.593,0.2,8,-11.063,1,0.0311,0.904,0.0,0.0897,0.17,83.966,255067,spotify:track:3xXBsjrbG1xQIm1xv1cKOt
+Sad,Back To December,Taylor Swift,75,0.529,0.67,2,-4.663,1,0.0303,0.117,0.0,0.334,0.286,141.893,293027,spotify:track:3DrjZArsPsoqbLzUZZV1Id
+Sad,Without You,Mariah Carey,74,0.576,0.526,6,-8.524,1,0.0325,0.323,2.01e-06,0.0548,0.147,122.06,213667,spotify:track:1kMOJBmpfWD9fir6st9uqS
+Sad,Out Of Love,Alessia Cara,74,0.481,0.267,7,-9.249,1,0.0339,0.8,0.0,0.249,0.137,117.64,227693,spotify:track:4WzhjxvLP95y7AMDy0Atwb
+Sad,Always Remember Us This Way,Lady Gaga,74,0.553,0.502,0,-5.972,1,0.0409,0.299,0.0,0.764,0.296,129.976,210200,spotify:track:74iZuPGwyL33VlTr6jTnab
+Sad,Apologize,OneRepublic,73,0.593,0.74,8,-6.12,1,0.0339,0.363,2.22e-05,0.102,0.502,118.008,208107,spotify:track:1NrJYpdAi7uosDRPmSYrsG
+Sad,What Hurts The Most,Rascal Flatts,73,0.537,0.674,5,-5.134,0,0.0277,0.0088,0.0,0.265,0.33,136.002,214107,spotify:track:4bVuIlGQBMWS7vIhcx8Ae4
+Sad,Because of You,Kelly Clarkson,73,0.583,0.584,5,-5.362,0,0.0314,0.254,0.0,0.123,0.136,140.039,219493,spotify:track:3f3omU8n47Mqyab5nCaGyT
+Sad,Not About Angels,Birdy,73,0.405,0.111,0,-11.879,1,0.0369,0.964,4.37e-05,0.0872,0.219,116.86,189475,spotify:track:5sF7hdYvhrcgNq8NZjfK8L
+Sad,Praying,Kesha,73,0.543,0.39,10,-7.202,1,0.0322,0.489,0.0,0.111,0.303,73.415,230267,spotify:track:0jdny0dhgjUwoIp5GkqEaA
+Sad,Let It Go,James Bay,73,0.546,0.311,1,-10.396,1,0.0288,0.818,1.65e-05,0.107,0.246,147.464,260533,spotify:track:13HVjjWUZFaWilh2QUJKsP
+Sad,Visiting Hours,Ed Sheeran,72,0.471,0.396,8,-6.654,1,0.0336,0.77,0.0,0.0729,0.263,149.609,215507,spotify:track:44V6EzbUSYgyfsNiP0FrlA
+Sad,Mad World,Gary Jules,71,0.344,0.0585,3,-17.212,1,0.0373,0.976,0.000362,0.103,0.323,174.149,189507,spotify:track:3JOVTQ5h8HGFnDdp4VT3MP
+Sad,This Year's Love,David Gray,71,0.329,0.167,8,-11.635,1,0.0311,0.731,3.08e-05,0.101,0.203,165.026,245533,spotify:track:4X6F9xoYUyJh4OhnXbAZv2
+Sad,Impossible,Shontelle,71,0.6,0.624,8,-3.631,1,0.0334,0.385,0.0,0.125,0.529,90.036,226533,spotify:track:1T8PwF3JhIiWwBhun23RNe
+Sad,Thinking 'Bout Love,Wild Rivers,71,0.556,0.535,5,-6.275,1,0.042,0.114,0.0,0.147,0.406,74.336,184200,spotify:track:0YHH3qK8Ntqxcc2GFkRrPh
+Sad,Stay,Rihanna,70,0.621,0.31,9,-10.164,0,0.0283,0.945,6.12e-05,0.117,0.125,111.893,240707,spotify:track:1dEy9Pl81QopSxNsPxXQxv
+Sad,I Will Follow You into the Dark,Death Cab for Cutie,69,0.517,0.206,5,-12.233,1,0.0421,0.924,0.0,0.118,0.489,80.401,189187,spotify:track:3kZC0ZmFWrEHdUCmUqlvgZ
+Sad,Someone Like You (feat. Joy Oladokun),Noah Kahan,69,0.614,0.526,5,-7.492,1,0.0603,0.468,0.0,0.0939,0.366,177.913,186552,spotify:track:0hiHNxqKGf3GZgVTIOAiiK
+Sad,She Used To Be Mine,Sara Bareilles,69,0.397,0.303,5,-7.508,1,0.0435,0.381,0.0,0.101,0.172,81.05,250267,spotify:track:2D4BSm5Z8Hq5zYbSgJwEOh
+Sad,"Secret Love Song, Pt. II",Little Mix,68,0.558,0.361,9,-8.346,1,0.0328,0.754,0.0,0.0926,0.165,95.161,266926,spotify:track:0NyRSfiU6ri61vku1xiLoD
+Sad,Bleeding Love,Leona Lewis,68,0.635,0.647,5,-5.864,1,0.0366,0.192,0.0,0.154,0.201,104.058,262693,spotify:track:6LtPIXlIzPOTF8vTecYjRe
+Sad,I Lost a Friend,FINNEAS,67,0.453,0.208,11,-11.917,1,0.22,0.585,0.0,0.119,0.218,169.326,237020,spotify:track:5v1sPD1lu2wiPzi07tW8zm
+Sad,Consequences,Camila Cabello,67,0.455,0.292,0,-6.792,1,0.0563,0.889,0.0,0.106,0.43,84.339,178467,spotify:track:7sTtHHrD0zDpmzQzH3zegz
+Sad,I Don't Want to Wait,Paula Cole,67,0.41,0.468,11,-8.177,1,0.0553,0.298,1.19e-05,0.0426,0.475,177.508,320027,spotify:track:5MDQNJ7SZTytJwCbWKqJDL
+Sad,How Can You Mend a Broken Heart,Al Green,67,0.467,0.42,4,-6.957,1,0.0398,0.509,2.56e-05,0.0707,0.365,146.512,383503,spotify:track:6lUXneXZ9jc3HSMHgd8oqh
+Sad,Put A Little Love On Me,Niall Horan,67,0.584,0.465,10,-4.88,1,0.0262,0.678,0.0,0.106,0.299,95.969,224586,spotify:track:1hCTxutVVYvggAQcUUUZAT
+Sad,Homesick,Dua Lipa,67,0.426,0.224,6,-8.683,1,0.0391,0.948,0.0,0.112,0.399,85.728,230480,spotify:track:5E5MqaS6eOsbaJibl3YeMZ
+Sad,I Can't Make You Love Me,Bonnie Raitt,66,0.588,0.149,7,-16.728,0,0.0319,0.846,9.65e-05,0.236,0.113,124.689,332960,spotify:track:69uJi5QsBtqlYkGURTBli8
+Sad,Gravity,Sara Bareilles,69,0.27,0.275,0,-10.357,1,0.0356,0.834,0.0,0.146,0.231,168.964,232760,spotify:track:4oa14QBfWRDfJy2agySy0L
+Sad,Hope Is A Heartache,LÉON,65,0.468,0.495,5,-6.634,1,0.0822,0.429,0.0,0.305,0.235,171.4,201401,spotify:track:3w1P8nwsVi9vxrGvxYLzAC
+Sad,River Of Tears,Alessia Cara,64,0.389,0.373,6,-5.72,1,0.047,0.928,0.0,0.146,0.283,90.289,254507,spotify:track:3ArYVrRb0lDBLzuJJqIXzC
+Sad,Close To You,Rihanna,64,0.494,0.17,10,-11.368,1,0.0337,0.895,0.0,0.139,0.145,80.098,223213,spotify:track:6D2tzc8kRnZb7P1lNwMBLH
+Sad,To Let A Good Thing Die,Bruno Major,64,0.552,0.109,10,-18.857,1,0.102,0.934,1.35e-05,0.13,0.389,64.303,135013,spotify:track:6rn05wjqqgF86cDdPRAGaa
+Sad,"When She Loved Me - From ""Toy Story 2"" / Soundtrack Version",Sarah McLachlan,64,0.386,0.175,5,-12.038,1,0.043,0.984,0.0,0.0868,0.235,67.195,183440,spotify:track:780W6YW5HFANQLR77Owern
+Sad,Piece by Piece - Idol Version,Kelly Clarkson,63,0.561,0.245,1,-6.372,1,0.0344,0.904,0.0,0.0933,0.402,109.558,212280,spotify:track:3KbFtYPyVP6C7BQVgH2cCf
+Sad,You Don't Know,Katelyn Tarver,62,0.546,0.315,1,-8.532,1,0.0499,0.734,1.26e-06,0.105,0.139,78.076,260852,spotify:track:5F7dkkzWdHWPpn9zOYu8Ng
+Sad,Stone Cold,Demi Lovato,61,0.419,0.453,8,-7.685,1,0.0437,0.539,0.0,0.0971,0.356,140.327,191308,spotify:track:56twMOlq9DJc3EgpVUVIrW
+Sad,The Worst Of You,PJ Harding,58,0.555,0.35,10,-10.955,0,0.0503,0.791,6.64e-06,0.11,0.404,77.772,209813,spotify:track:06rX4GEEjsVTSbRBWycs2U
+Sad,london,Wrabel,58,0.568,0.495,9,-7.669,1,0.0385,0.585,0.000198,0.132,0.217,83.919,266220,spotify:track:4mmtgoBJCUA8l8uDRJlnro
+Sad,What Becomes Of The Brokenhearted,Jimmy Ruffin,58,0.733,0.443,2,-12.017,0,0.0252,0.678,0.0,0.519,0.701,97.348,178440,spotify:track:0wBaPbJ2qsbGqgnGbqBDgP
+Sad,Someone Who Loved You,Teddy Swims,57,0.562,0.495,11,-6.124,1,0.0632,0.382,1.49e-06,0.12,0.406,155.777,177931,spotify:track:144wciVMFV19YTkmZ50g4z
+Sad,I Never Told You,Colbie Caillat,57,0.506,0.639,3,-5.222,1,0.0285,0.171,0.0,0.315,0.385,144.073,233200,spotify:track:2rJWnAqSuLMls0KOv416Io
+Sad,Love Go By,Elle King,57,0.56,0.607,0,-5.031,1,0.0311,0.29,2.43e-05,0.114,0.467,85.917,222680,spotify:track:2kIVaHR9iEO8Ai2m4fFiB6
+Sad,Piece Of Me,Lady Wray,57,0.606,0.53,3,-6.513,1,0.316,0.64,0.000203,0.121,0.613,85.399,224731,spotify:track:63hmrFUS4mvbiWzFP9u2LK
+Sad,Say Something,A Great Big World,57,0.447,0.158,2,-7.571,1,0.036,0.872,1.58e-06,0.0816,0.142,140.942,233267,spotify:track:2fPb58e6f8KxejYDCaARwS
+Sad,LOVE ME OR LEAVE ME,Munn,56,0.732,0.459,6,-8.029,1,0.0898,0.524,0.0,0.0816,0.481,130.136,146457,spotify:track:0zUT6RbKCqHqorVnXVoZcm
+Sad,Til It Happens To You,Lady Gaga,56,0.401,0.539,0,-4.719,1,0.035,0.565,0.0,0.0933,0.15,113.87,258093,spotify:track:0bCCGLHflR08UVA6oJJc8I
+Sad,Never on the Day You Leave,John Mayer,55,0.536,0.355,2,-8.61,1,0.0259,0.733,1.22e-05,0.138,0.22,139.888,220867,spotify:track:3TQbr3G3U5wlwEJejmqC1F
+Sad,Wild Hearts Can't Be Broken,P!nk,53,0.377,0.371,0,-6.3,1,0.0295,0.932,0.0,0.118,0.189,130.57,201053,spotify:track:3nA9tHmsw5UGMtSIMz4mt7
+Anger,Supermassive Black Hole,Muse,81,0.668,0.921,7,-3.727,1,0.0439,0.0492,0.00517,0.0877,0.782,120.0,212440,spotify:track:3lPr8ghNDBLc2uZovNyLs9
+Anger,Vertigo,Alice Merton,48,0.63,0.884,5,-4.292,1,0.0489,0.00103,0.000102,0.268,0.637,134.981,186933,spotify:track:1uxPC9Sqn1bMLhUaTqFjye
+Anger,Parasite Eve,Bring Me The Horizon,65,0.589,0.797,9,-5.464,1,0.15,0.0289,4.35e-06,0.383,0.232,102.489,291813,spotify:track:5OxclJsdFESni44YlpNpkR
+Anger,Seize the Power,YONAKA,59,0.633,0.788,5,-4.075,0,0.127,0.0111,1.6e-06,0.0582,0.412,134.13,161617,spotify:track:4wD6EgZCok8Qb5Fs8jszYc
+Anger,Teenagers,My Chemical Romance,84,0.463,0.857,4,-3.063,1,0.0632,0.0506,0.0,0.184,0.856,111.647,161920,spotify:track:7j31rVgGX9Q2blT92VBEA0
+Anger,Hayloft,Mother Mother,78,0.527,0.922,9,-2.666,0,0.0728,0.00475,0.000162,0.422,0.49,95.975,181680,spotify:track:2kS6td1yvmpNgZTt1q5pQq
+Anger,Do I Wanna Know?,Arctic Monkeys,91,0.548,0.532,5,-7.596,1,0.0323,0.186,0.000263,0.217,0.405,85.03,272394,spotify:track:5FVd6KXrgO9B3JPmC8OPst
+Anger,I Like The Way You Die,Black Honey,51,0.546,0.76,9,-6.887,0,0.0399,0.00629,4.66e-05,0.0737,0.41,101.936,188027,spotify:track:13HPn0OyGLPtJ6iUNiwLYg
+Anger,Can't Stop,Red Hot Chili Peppers,86,0.618,0.938,9,-3.442,1,0.0456,0.0179,0.0,0.167,0.875,91.455,269000,spotify:track:3ZOEytgrvLwQaqXreDs2Jx
+Anger,Icky Thump,The White Stripes,69,0.417,0.63,9,-7.24,1,0.0898,0.0209,0.0134,0.0543,0.341,94.214,254533,spotify:track:2LMq1O0NiqGhPOlXo3McYQ
+Anger,Pass The Nirvana,Pierce The Veil,71,0.536,0.9,2,-4.407,1,0.0807,0.000974,0.000286,0.157,0.627,143.025,197373,spotify:track:7I93h9I0RUqt1ci3Bfa290
+Anger,Stuck,Thirty Seconds To Mars,76,0.62,0.782,4,-5.326,0,0.058,0.0409,2.01e-06,0.259,0.551,123.117,182747,spotify:track:1PYG9Akj0LAZZUDXzV9m1S
+Anger,Natural Born Killer,Highly Suspect,60,0.202,0.742,0,-5.29,1,0.124,0.00169,0.000483,0.128,0.155,194.876,196136,spotify:track:4nMUPQeTor23d8RxiiJO9W
+Anger,Dad Vibes,Limp Bizkit,52,0.698,0.891,6,-5.402,1,0.113,0.0741,2.96e-05,0.313,0.837,95.007,132206,spotify:track:3XM6V7K5nbZf5AQz20fDDb
+Anger,The News,Paramore,69,0.564,0.91,4,-6.853,0,0.0953,0.00021,2.32e-05,0.378,0.736,157.942,187697,spotify:track:59RjIhWIpthNpwrlChUvXm
+Anger,I WANNA BE YOUR SLAVE,Måneskin,85,0.75,0.608,1,-4.008,1,0.0387,0.00165,0.0,0.178,0.958,132.507,173347,spotify:track:4pt5fDVTg5GhEvEtlz9dKk
+Anger,Welcome to the DCC,Nothing But Thieves,72,0.649,0.74,9,-4.759,0,0.0617,0.02,0.0505,0.104,0.203,120.962,198799,spotify:track:0ZImVxesVZIydOnwTMSWOK
+Anger,Weirdo,K.Flay,49,0.575,0.64,6,-6.061,1,0.0455,0.00831,0.00173,0.161,0.565,93.991,225034,spotify:track:0aIj36K0tuJIt6kpN4Jbtq
+Anger,Wild Stare,Giant Rooks,51,0.646,0.82,10,-3.618,0,0.0521,0.026,0.000171,0.191,0.438,128.061,194480,spotify:track:6NZUOG0R0uxIBkcQ6BIqfq
+Anger,King,Florence + The Machine,61,0.73,0.445,6,-8.376,0,0.0446,0.142,0.00109,0.107,0.075,105.976,280131,spotify:track:1VSngtLdJhrlfHkLxTyOXK
+Anger,GOOD ENEMY,PVRIS,59,0.569,0.789,6,-4.686,0,0.138,0.0355,0.0,0.0505,0.876,164.978,130613,spotify:track:1dkVl41242u0eGODPvjd0l
+Anger,The Emperor,YUNGBLUD,53,0.514,0.949,8,-3.048,0,0.0872,0.000309,2.46e-05,0.29,0.608,160.063,175151,spotify:track:4CtqY9iFkMwCz1pewf0t90
+Anger,Selfish,slowthai,47,0.358,0.839,2,-5.342,1,0.203,0.00031,0.00081,0.101,0.211,84.85,192716,spotify:track:4FFec7v5TnYdwNzyrmBGM9
+Anger,It's Not Your Fault,Maggie Lindemann,53,0.507,0.88,5,-2.938,0,0.0461,0.0044,0.0176,0.367,0.469,151.936,198749,spotify:track:0l8NnoFm09sUNcts1ycOtV
+Anger,HONEY,LUNA AURA,53,0.468,0.902,9,-4.838,1,0.132,0.0325,2.65e-06,0.0664,0.451,119.017,155680,spotify:track:7AVf3MdvwHM5CdOdquzu9c
+Anger,This is Our Life,Des Rocs,55,0.364,0.877,7,-3.922,1,0.107,0.0011,1.16e-05,0.348,0.382,157.675,224307,spotify:track:5PUTXDqo5aGHoGbAhYm5ZT
+Anger,Blow,KID BRUNSWICK,48,0.552,0.78,5,-5.43,0,0.042,0.001,2.69e-06,0.284,0.354,104.042,183212,spotify:track:6d6WNysquy9upPZPxKRTQF
+Anger,I.N.V.U.,Kid Kapichi,46,0.776,0.796,0,-5.236,1,0.0806,0.00629,9.57e-06,0.0292,0.965,125.128,163560,spotify:track:5f2d8tMWMoTlFaK9q9lJHO
+Anger,Babylon,Normandie,50,0.421,0.817,7,-4.951,0,0.162,0.00808,0.000615,0.755,0.522,194.992,245538,spotify:track:0JlNtj7KalsjE4MWnwfv3U
+Anger,Hate To Say I Told You So,The Hives,64,0.451,0.929,5,-5.021,1,0.0549,0.00109,0.00785,0.442,0.378,135.767,199760,spotify:track:6xxXrNJnnsQNLdgNk8S4y8
+Anger,Fuck Me (I Didn’t Know How To Say),Crawlers,52,0.521,0.679,8,-6.093,1,0.0892,0.0263,0.00122,0.0911,0.555,179.346,186787,spotify:track:07M8tCNuO9RZenyINtp2QB
+Anger,I EXIST,VUKOVI,46,0.469,0.882,5,-4.702,1,0.068,6.29e-05,0.00483,0.318,0.298,135.055,269667,spotify:track:3eI62ZWWxkl4LUaBqXvA6Y
+Anger,Aye,Sam Fender,45,0.587,0.823,1,-4.852,1,0.0456,0.104,4.91e-05,0.0998,0.73,156.048,186773,spotify:track:5n7yP1qQiXs9uCE3m1eyGB
+Anger,Cheer Up London,SOFT PLAY,53,0.627,0.861,1,-1.856,1,0.0509,0.000564,0.0,0.0312,0.623,122.133,153267,spotify:track:6YwYfxEFDUZZ1xX5vlBYmF
+Anger,Don't You Feel Amazing?,Trash Boat,48,0.44,0.9,0,-3.87,1,0.0679,0.000472,4.83e-06,0.11,0.467,85.47,225841,spotify:track:6BxlRoxVztZNLsaSOnh3ja
+Anger,Ready for the High,The Wombats,50,0.501,0.777,11,-7.002,0,0.0427,9.91e-05,0.000643,0.324,0.757,150.115,245320,spotify:track:6gReaFvSI1Pabi3xE0Oh9V
+Anger,Longshot,Catfish and the Bottlemen,53,0.481,0.765,7,-4.025,1,0.0388,0.00381,0.000737,0.119,0.465,102.829,232960,spotify:track:1Yi8XPnCPoimWwqxwm3uz9
+Anger,The Delicate Nature,Bob Vylan,46,0.67,0.903,6,-3.133,1,0.195,0.0358,2.86e-06,0.17,0.528,120.115,182407,spotify:track:4oLwiIzyp1FZoxK1MM6Ow1
+Anger,GIMME,The XCERTS,41,0.591,0.698,1,-6.939,1,0.213,0.0226,0.0,0.387,0.764,159.914,100467,spotify:track:1d9pnTuvvi0AVgcO8DkP1S
+Anger,"ILY, HOW ARE YOU?",AS IT IS,48,0.411,0.95,11,-3.441,0,0.0547,0.00577,1.28e-05,0.625,0.658,166.058,131364,spotify:track:51sGd4PYmBWbVNMCAh3nd0
+Anger,Dead Weight,PVRIS,49,0.6,0.915,4,-2.087,0,0.0665,0.00593,0.00952,0.484,0.589,119.008,207000,spotify:track:7hM9ShrZMCV7xYOQwqBnNb
+Anger,Ready For Something,The Amazons,41,0.535,0.754,7,-5.417,1,0.0396,0.000292,3.63e-06,0.367,0.335,118.954,237560,spotify:track:0Tep6Kp3UHzpewyC0iSsDd
+Anger,MAKEMEFEELALIVE,You Me At Six,48,0.547,0.987,1,-1.789,1,0.0807,0.00262,0.00024,0.31,0.5,135.014,128613,spotify:track:7AMllrhJtXgcTtJUbbF3PR
+Anger,Puzzles,Nova Twins,43,0.578,0.948,0,-5.304,1,0.137,0.0208,0.000554,0.0746,0.392,88.568,161560,spotify:track:0rWIAbUoOL67JAHxxGRKx7
+Anger,THREE HEADS*,Jean Dawson,46,0.564,0.875,6,-4.013,1,0.052,0.443,0.000158,0.0787,0.61,139.991,171842,spotify:track:4apXjryIqMFUdOjWMM6zZp
+Anger,What's the Trick?,Jack White,53,0.375,0.71,0,-8.665,1,0.267,0.000867,0.00628,0.104,0.559,97.335,214843,spotify:track:14FW5L81Px03LnnsXnB2LG
+Anger,Golden,Barns Courtney,62,0.586,0.81,6,-7.287,0,0.0484,0.00275,2.95e-05,0.145,0.646,105.015,170523,spotify:track:0woKDRMZzsFWeHppNQnGlS
+Anger,What Went Down,Foals,58,0.231,0.919,2,-6.182,0,0.0722,0.00313,0.00442,0.0643,0.128,146.94,300720,spotify:track:78tgXRq9Q6tPNP9hKCpgwB
+Anger,Weird Leisure,Biffy Clyro,49,0.228,0.879,5,-4.326,1,0.0701,0.000141,8.7e-06,0.0484,0.352,145.418,248493,spotify:track:0cJZTQ1x6ko3gbtoLKaoQe
+Anger,Who’s Gonna Love Me Now,Cold War Kids,52,0.45,0.947,6,-3.608,0,0.207,0.00277,0.00027,0.286,0.298,118.701,171227,spotify:track:5VqnXEcxWfLdnsXBVjEpWx
+Focus,So Far So Good,Sun Of They,66,0.577,0.0721,2,-22.973,1,0.0317,0.981,0.898,0.111,0.242,73.998,151917,spotify:track:6zTbtySCRStJOv5xA4XvRE
+Focus,Apricity,Imala Zir,65,0.467,0.243,11,-22.534,1,0.0332,0.842,0.947,0.115,0.0541,75.031,158000,spotify:track:6cr9XbO2yAJgTNa6XNRINF
+Focus,Solatium,Imber Sun,64,0.442,0.112,2,-18.687,1,0.0415,0.985,0.919,0.111,0.111,112.206,126986,spotify:track:4br0nM6NdvDKMJgLj44foR
+Focus,efflorescence,Far & Beyond,64,0.509,0.212,6,-23.342,1,0.0305,0.843,0.853,0.111,0.0711,84.0,143500,spotify:track:7qa14fkhxgOwWgJ2cbDTyc
+Focus,Gather My Thoughts,Josef Briem,64,0.346,0.0513,7,-20.528,1,0.0432,0.954,0.895,0.105,0.058,129.445,183500,spotify:track:11nkLTEsCUzxXLWpyuz65G
+Focus,Fresh Paint,Shape Of Our Dreams,63,0.378,0.0973,3,-20.7,1,0.0418,0.955,0.94,0.115,0.0564,118.209,154992,spotify:track:40yQjVqMx52xTlY4KFZXnh
+Focus,Infinite Sustain,Amaranth Cove,64,0.529,0.214,6,-19.268,1,0.0315,0.8,0.907,0.109,0.0903,124.069,149000,spotify:track:5AciiCKJKTLKRrAPSrKQy5
+Focus,Borealis,PLACID,63,0.437,0.189,9,-11.221,0,0.0287,0.479,0.718,0.118,0.13,71.407,105957,spotify:track:7hYgGeMBarMRK5iGPqKGsb
+Focus,mind reader,Haltura Arnadottir,63,0.513,0.0646,0,-21.471,1,0.0352,0.964,0.828,0.0967,0.135,74.906,169567,spotify:track:76aMjXNa94NuHTNC0BFoH8
+Focus,Distant Star,Noonie Moon,61,0.581,0.083,10,-20.563,0,0.0348,0.994,0.965,0.107,0.157,78.967,115443,spotify:track:1J0hsOJoJA2GuY1Yd08owz
+Focus,Hovering Above,Auðura,58,0.517,0.0377,5,-24.575,1,0.034,0.972,0.894,0.109,0.0699,79.983,125438,spotify:track:5PousAnbyul3dTZlmGqEs0
+Focus,pull me in,Sun Of They,60,0.46,0.188,1,-22.21,0,0.0333,0.944,0.817,0.108,0.075,74.04,186010,spotify:track:6Nk81KRPclU0PJmYQeEZyF
+Focus,Mastermind,Josef Briem,61,0.587,0.101,6,-19.363,0,0.035,0.895,0.915,0.111,0.167,74.047,178300,spotify:track:3lt88w6SiiTWWvG0LYXRjx
+Focus,Bridges,Woven Hearts,62,0.614,0.109,11,-18.283,0,0.0471,0.913,0.905,0.11,0.158,148.072,165459,spotify:track:4ojVtI82vjDG9gBEE29YBb
+Focus,Dreamshaper,Agnes Lundh,61,0.5,0.0744,7,-20.888,1,0.0381,0.959,0.93,0.11,0.0828,65.364,163917,spotify:track:5N9usiGt4EYV0V6YInEmIR
+Focus,Spaces,William Reed,61,0.498,0.119,0,-20.206,1,0.0286,0.874,0.942,0.111,0.0532,74.921,136258,spotify:track:72eV4iUZ0MHnx35ARmPwYY
+Focus,Mind over matter,Josef Briem,61,0.521,0.119,10,-18.879,1,0.0364,0.976,0.878,0.113,0.163,59.008,153878,spotify:track:1XTcfJ0PlFW3xSq4kqPxqr
+Focus,Getting Closer,Pireas,61,0.575,0.0605,1,-19.301,0,0.0644,0.994,0.924,0.104,0.267,146.405,107906,spotify:track:7kfCTnxt6irtsSWWbFib62
+Focus,Wish I Knew,Spaced Out Dreams,60,0.316,0.0899,0,-22.09,1,0.0458,0.864,0.845,0.112,0.0903,73.709,137365,spotify:track:753JsxMTj2sSrV3VBUzlmh
+Focus,Sightings,Agnes Lundh,54,0.58,0.0541,10,-20.988,0,0.0312,0.978,0.896,0.111,0.208,147.79,165260,spotify:track:0cUTNAkzhEjrAmSnp79aIE
+Focus,Relentless,Silver Falls,60,0.352,0.074,4,-23.149,0,0.0303,0.98,0.879,0.107,0.116,71.46,163831,spotify:track:6b1iYDiid8sZVQzwrF438y
+Focus,Seeing Sound,San Bernadino 5,60,0.528,0.103,5,-21.485,1,0.0324,0.838,0.868,0.114,0.0896,84.035,124286,spotify:track:1c9EcAZaZwvguJscnojXaR
+Focus,Infra,Tiger Throws,60,0.452,0.0314,11,-23.602,0,0.0399,0.911,0.918,0.119,0.0507,78.082,140525,spotify:track:7aUZ3tEkoDN8qE6Rl6TfCc
+Focus,Tide,Nomad Spector,59,0.599,0.209,1,-19.438,1,0.0374,0.898,0.843,0.112,0.125,139.926,150718,spotify:track:2j7uOzdepAtKUnn8VcuNEV
+Focus,Whispering,Space Access,60,0.621,0.136,9,-26.077,0,0.0396,0.859,0.906,0.111,0.131,140.068,132500,spotify:track:1hWZ0uScuJ6PSeoe2p4sKC
+Focus,Steady figures,Imber Sun,59,0.536,0.189,2,-17.024,1,0.0394,0.858,0.897,0.111,0.122,73.964,161316,spotify:track:1sGdr8pFBYgx4ZHDLjcH5c
+Focus,circumstances,Garden Collective,59,0.594,0.0979,2,-16.918,1,0.0379,0.978,0.931,0.112,0.191,133.627,192592,spotify:track:47ibywRXe3EGtaL4ZVhvzL
+Focus,Unperturbed,Gate.74,59,0.653,0.134,4,-19.707,1,0.062,0.836,0.876,0.0908,0.0937,120.033,157681,spotify:track:5483XAumUCO44oXXH5lxfg
+Focus,bounce back,Far & Beyond,59,0.542,0.106,0,-20.175,1,0.0389,0.955,0.947,0.0812,0.141,67.994,178599,spotify:track:1rkxyQH6y3qxysbYKo8yyI
+Focus,Pyramids,Humasnó,59,0.591,0.0949,6,-15.708,0,0.0462,0.967,0.902,0.103,0.146,136.406,121765,spotify:track:1a2BXMnQbjArGITwt3bMD9
+Focus,Keep It Together,Naómi Sun,59,0.605,0.055,10,-22.641,0,0.0313,0.95,0.907,0.113,0.139,74.966,135700,spotify:track:5IYnFJVBmhQGGluaHAHZaf
+Focus,Crystals,Sun Of They,58,0.392,0.194,5,-16.216,0,0.034,0.98,0.91,0.118,0.179,108.663,182434,spotify:track:4gAlANEHRk0T04OKXNc9vy
+Focus,Daydreams Again,Sisters Of Marks,58,0.646,0.153,5,-20.776,1,0.0362,0.946,0.821,0.207,0.124,92.699,165724,spotify:track:65g63lVQqRCZsqROayNak9
+Focus,The inner circle,Dreams Ahead,58,0.551,0.128,2,-16.382,1,0.0316,0.927,0.937,0.105,0.0828,74.934,184231,spotify:track:41ial1TTDNlhaEuzpI5SAk
+Focus,Distance,Ben Tofft,58,0.665,0.0654,11,-18.799,0,0.0466,0.963,0.901,0.111,0.299,127.191,131519,spotify:track:0fOzbcpxqSgX5KhLwfdGyi
+Focus,Sounds from Home,Haltura Arnadottir,58,0.476,0.064,11,-17.377,0,0.0411,0.939,0.872,0.109,0.146,73.825,193417,spotify:track:5iFHdi7BB0koNu8t2Ug82n
+Focus,The Narrator,Dance Of Centuries,57,0.525,0.0856,0,-16.351,1,0.0395,0.976,0.865,0.118,0.121,74.038,150088,spotify:track:0RsUZkIIsJAXDzsDa5xz12
+Focus,Orion's Belt,Lykke Juno,57,0.544,0.224,9,-12.71,0,0.0422,0.894,0.95,0.122,0.0998,68.989,118261,spotify:track:2p36nzolzAlLbaFAQiqfPd
+Focus,What You Were Looking For,Broken Legacy,57,0.756,0.0881,9,-19.834,0,0.0501,0.94,0.911,0.111,0.165,124.082,200235,spotify:track:5LdVyywNiR4gqPPM3yqVSR
+Focus,Upside,Wimmel,57,0.413,0.0324,5,-25.884,1,0.0273,0.922,0.855,0.0946,0.0727,74.943,166599,spotify:track:7cEcI3DZiwBrFcF3bAeBuL
+Focus,blue dream mountain,bonecatcher,57,0.586,0.0459,3,-21.804,1,0.0311,0.984,0.936,0.128,0.0674,75.0,149600,spotify:track:0fdn9DETYyIN4sEuSqkm1x
+Focus,river song,Spaced Out Dreams,57,0.595,0.13,0,-19.655,1,0.034,0.97,0.868,0.111,0.181,100.93,162902,spotify:track:6f6qUsqIfRIEqHJuL6EFAn
+Focus,Breaking the Barrier,Dreams Ahead,57,0.555,0.0712,5,-17.961,1,0.0373,0.98,0.738,0.111,0.251,67.075,150558,spotify:track:4HXS5JIpFZmXj4yFMOv4gU
+Focus,Canvas,Philó,56,0.465,0.0375,4,-22.686,0,0.0352,0.921,0.853,0.096,0.0796,85.019,156130,spotify:track:7wjaxqy8HJOMfX1qoZNdTZ
+Focus,Blue Hour,Pireas,57,0.616,0.171,10,-17.482,0,0.0405,0.993,0.929,0.11,0.213,84.064,140804,spotify:track:2B8K5m8XwCz2MJvahACTjD
+Focus,Icicles,Joy Parade,56,0.406,0.103,2,-17.993,1,0.0408,0.972,0.9,0.112,0.182,67.543,146867,spotify:track:7Cr1H2QTtm9KXobncJOkJF
+Focus,Simple Thing,Sisters Of Marks,56,0.489,0.185,2,-21.407,0,0.0282,0.762,0.893,0.111,0.135,149.927,181256,spotify:track:1xn4V99fkCg868FBTlQSyC
+Focus,Summer Vibes,Serenity Within,56,0.546,0.132,11,-18.227,0,0.0344,0.636,0.903,0.135,0.15,130.016,156753,spotify:track:3nBn6Ox2yVzTuAmi2rbo9H
+Focus,Open to it,Far & Beyond,56,0.321,0.113,10,-17.222,1,0.0376,0.959,0.924,0.11,0.152,67.401,144404,spotify:track:7AkmShdIslE2jkJ4jHbYmd
+Focus,Sharing is Caring,Imber Sun,56,0.317,0.0992,4,-20.105,1,0.0301,0.891,0.863,0.111,0.15,95.929,131592,spotify:track:09o3Sp5xVj63YQIoMmPHad
+Focus,Cherubim,Miller & Bronx,55,0.577,0.0406,11,-21.477,1,0.0482,0.965,0.873,0.11,0.297,149.851,161698,spotify:track:1AL54jGmiH5sEn7OUIbVVP
+Focus,Good Days,Lykke Juno,55,0.508,0.209,11,-16.211,0,0.0288,0.988,0.882,0.108,0.112,138.097,111304,spotify:track:0oXl1pTqskTdXuu46tPCJm
+Focus,Chatoyant,Sometimes We Fall,55,0.469,0.0737,2,-22.375,1,0.0413,0.969,0.922,0.111,0.204,144.04,163656,spotify:track:7hwwc6qNtXxwurI2AcDg3E
+Focus,Victory Laps,Josef Briem,55,0.492,0.038,0,-23.197,1,0.0378,0.94,0.897,0.111,0.265,74.866,134783,spotify:track:34Dgd9lC0X0AQwq4L3RbvY
+Focus,Sunday on my mind,Joy Parade,55,0.55,0.0907,6,-16.55,1,0.0348,0.994,0.928,0.111,0.135,83.041,124854,spotify:track:5vAUwAzCryz0XuR6QdGwbk
+Focus,Places,June Wysh,55,0.463,0.114,1,-17.919,0,0.0297,0.932,0.88,0.107,0.0681,149.941,135400,spotify:track:1E5wZo0royZB8p9rt7TRB8
+Focus,Nowhere,Nomad Spector,55,0.476,0.104,11,-20.96,0,0.0296,0.932,0.894,0.111,0.0386,70.003,205795,spotify:track:07niZTYNkvPcw61OX0YSR6
+Focus,Under the Horizon,Hers Lake,55,0.388,0.0247,7,-22.376,1,0.042,0.978,0.911,0.111,0.336,78.486,149973,spotify:track:1ScBivNTBV7KVIjumkFvFE
+Focus,Memories of Tomorrow,Imber Sun,54,0.526,0.0732,7,-19.831,1,0.034,0.926,0.869,0.149,0.131,90.815,147767,spotify:track:3S5bNdw13XmF0Zw98KtVrV
+Focus,Lift,GLADE,54,0.493,0.217,4,-14.367,1,0.0288,0.827,0.777,0.0977,0.134,107.103,116636,spotify:track:2dcOprxauIydtyWGbRY7aF
+Focus,Effortless,Space Access,54,0.604,0.216,11,-18.172,0,0.0412,0.873,0.863,0.111,0.0708,72.029,167820,spotify:track:3XW2ewe1iNoBlHTYPUi39V
+Focus,retrospect,Isaak Young,54,0.297,0.0991,11,-20.172,0,0.0393,0.92,0.897,0.111,0.171,35.366,174542,spotify:track:1vlaBhPNXdqdhdjkwV8VCv
+Focus,Once I Dreamed,Tim Gourolis,54,0.302,0.127,9,-19.69,0,0.0386,0.905,0.91,0.0965,0.137,109.262,192047,spotify:track:0yVsNXZjSNO0uLhPs8pynS
+Focus,One Step,Sounds of Ellinia,54,0.499,0.218,11,-17.352,1,0.037,0.863,0.903,0.111,0.172,140.109,144857,spotify:track:3TR4OoqzX947WgOxG1d5F3
+Focus,Tempestade,Philó,54,0.482,0.0432,5,-23.186,1,0.0316,0.935,0.856,0.111,0.0775,75.033,167582,spotify:track:5r9fTbn6YZVxHKaU4Rze3t
+Focus,Junifer,The Aiko,54,0.496,0.134,3,-15.87,1,0.0293,0.984,0.936,0.107,0.0537,64.96,136765,spotify:track:2O6ok8mA213SiKlHD3yOPt
+Focus,Epoque,ARCADIA,54,0.559,0.176,4,-15.088,0,0.0325,0.298,0.856,0.181,0.0473,106.999,125607,spotify:track:0WUmEgNPYXDCe8zwecTlYk
+Focus,sox,Stones Sailing,54,0.454,0.0699,4,-20.839,0,0.0516,0.264,0.889,0.108,0.0858,64.443,174753,spotify:track:2MQhJVwdsmdfG5qK96tEHH
+Focus,phosphorescence,Garden Collective,53,0.454,0.119,11,-21.969,1,0.0305,0.964,0.905,0.11,0.104,75.959,146496,spotify:track:2g7oWQYXIurU5x2YtMAC7H
+Focus,Wheel of Zodiac,Spaced Out Dreams,53,0.296,0.0604,7,-19.685,1,0.0393,0.971,0.896,0.111,0.15,81.874,135417,spotify:track:5Uj3rUYghH7vcKl5IiitWC
+Focus,daffodils,Tall Towers,53,0.378,0.0684,8,-19.494,1,0.0413,0.985,0.915,0.107,0.134,77.328,145603,spotify:track:1t2lWnGFqsejjpEUIoziKU
+Focus,you're just visiting,The Field Tapes,54,0.448,0.0722,0,-20.913,1,0.0409,0.5,0.724,0.075,0.22,110.018,106290,spotify:track:7rsRqxM1uneTiTKVjcxfPv
+Focus,Midnight Land,Akustique,53,0.665,0.12,9,-20.333,0,0.0358,0.925,0.899,0.111,0.147,99.958,141613,spotify:track:1bUiyTithUxLGEMZ2RD8US
+Focus,Fox Mountain,Alderville,53,0.394,0.0985,5,-22.02,1,0.0338,0.92,0.875,0.142,0.105,139.833,145286,spotify:track:7AhQiikvGQzcr2Kpb74fLG
+Focus,Feathers In The Sky,Agnes Lundh,53,0.552,0.109,5,-19.68,0,0.0326,0.98,0.944,0.119,0.0847,92.038,143579,spotify:track:4Bl2bWpteL5TFmqQ22IQXp
+Focus,World Above,Echo Ark,53,0.634,0.306,11,-18.009,0,0.0353,0.981,0.949,0.106,0.279,71.015,155574,spotify:track:6lCPEra6l4YkPkXVZeFqeT
+Focus,Am I Dreaming,Josef Briem,53,0.632,0.0535,9,-19.569,0,0.0378,0.984,0.909,0.115,0.189,85.004,162126,spotify:track:7zVTz5fDa8AfRfGdnXou3m
+Focus,Second Chances,Spaced Out Dreams,53,0.354,0.129,0,-18.357,1,0.0356,0.913,0.921,0.0827,0.0762,70.841,160684,spotify:track:7IbbjapJhOwteSxyMjWOLB
+Focus,save the date,Shape Of Our Dreams,52,0.699,0.0356,2,-20.645,0,0.0432,0.965,0.925,0.113,0.326,97.045,164454,spotify:track:0MeFxDLrLaw3n0sSjIXYvn
+Focus,center of mass,Far & Beyond,52,0.6,0.0793,2,-20.648,1,0.0372,0.92,0.929,0.117,0.116,89.907,144209,spotify:track:6opcJWSYfidSOyn8bQlTlK
+Focus,lone cowboy,Astronaut In The Desert,53,0.255,0.00954,2,-27.838,1,0.04,0.99,0.806,0.0992,0.225,71.052,155077,spotify:track:5UZdpqf1F4fvDqvGYC2sRt
+Focus,The Object at Hand,Joy Parade,52,0.607,0.124,9,-18.633,0,0.0329,0.945,0.839,0.113,0.0805,97.094,139212,spotify:track:0sm2PC8NP8L0J2sxPJwKvA
+Focus,In Due Time,Tall Towers,52,0.421,0.059,2,-22.33,0,0.0384,0.934,0.888,0.115,0.158,75.984,135599,spotify:track:433T7mnFe3pkrTZfnYtq7A
+Focus,Nuraxi,PLACID,52,0.484,0.316,2,-11.538,1,0.0367,0.0603,0.885,0.145,0.0385,107.156,103178,spotify:track:0jgfH1TWoXIC0Qk5x0Uerw
+Focus,"ready, steady, go",Hers Lake,52,0.611,0.0622,4,-21.731,0,0.0379,0.95,0.928,0.111,0.0602,73.04,147558,spotify:track:4mQEVCbtbQuiOYouVR0fcs
+Focus,Beginnings,Melvin Barker,52,0.243,0.0727,3,-22.296,1,0.0297,0.857,0.874,0.107,0.151,81.579,222992,spotify:track:2o41jDa4T0QKF9804tqyka
+Focus,Tidal Waves,Isaak Young,52,0.597,0.115,7,-18.215,1,0.0373,0.954,0.923,0.11,0.13,97.044,190820,spotify:track:3YTZyDywwVOWOXw2d970Dx
+Focus,Frozen Lakes,Imber Sun,52,0.426,0.101,7,-18.238,0,0.0367,0.962,0.943,0.109,0.0626,78.734,166891,spotify:track:0acEauszFAvCGw9cNF0kZM
+Focus,Staring into Infinity,Far & Beyond,52,0.516,0.108,0,-20.004,1,0.042,0.962,0.907,0.11,0.116,76.987,155225,spotify:track:0Mjbx4mfOH02A9xmUE3F40
+Focus,Break Through,Sounds of Ellinia,52,0.534,0.0458,4,-23.414,0,0.0372,0.99,0.941,0.104,0.0405,129.818,155077,spotify:track:02Nyn3a2nHssi9rNg3jkdL
+Focus,Neon White,Dance Of Centuries,52,0.311,0.0541,2,-21.289,1,0.0486,0.994,0.926,0.112,0.281,59.549,139072,spotify:track:7GuN1Fddm0hCfppgIDUArP
+Focus,Number Games,Haltura Arnadottir,52,0.584,0.0374,7,-22.862,1,0.0418,0.969,0.884,0.112,0.173,116.88,167525,spotify:track:2ZSCtZBMhLuINrMNF23v2e
+Focus,remembrance,Dreams Ahead,52,0.461,0.0611,0,-20.555,1,0.044,0.962,0.93,0.112,0.133,120.815,195122,spotify:track:5NFybpngup7caMPSMiJ5ZO
+Focus,Are You Up,Agnes Lundh,51,0.597,0.127,5,-17.192,0,0.037,0.991,0.929,0.126,0.135,70.051,152597,spotify:track:3xXQCt1vfzNEOndrrNWAZR
+Focus,waveforms,Joy Parade,51,0.389,0.181,10,-18.82,1,0.0297,0.874,0.905,0.116,0.111,73.869,163232,spotify:track:2dwLTY84vCeubyM0jM0nXH
+Focus,miniature things,Tall Towers,51,0.487,0.143,0,-17.674,1,0.04,0.981,0.904,0.115,0.16,73.548,143872,spotify:track:3kKwXt8TAU7wMCPIPCrzkI
+Focus,Abroad and Overseas,Imala Zir,51,0.348,0.0549,4,-21.011,0,0.0358,0.989,0.92,0.108,0.237,76.177,168185,spotify:track:23sRVWvfwWdagkqC95eS6n
