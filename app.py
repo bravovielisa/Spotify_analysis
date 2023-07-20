@@ -28,7 +28,7 @@ import pickle
 
 st.set_page_config(
     page_title='Moods de Spotify',
-    page_icon='🎵',
+    page_icon='🎧',
     layout="wide",  # Puedes ajustar el diseño de la página según tus necesidades
     initial_sidebar_state="expanded",  # Puedes elegir si la barra lateral estará expandida o contraída al inicio
 )
