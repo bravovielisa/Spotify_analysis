@@ -4,6 +4,15 @@ Este proyecto pretende analizar una serie de playlists de Spotify a través de s
 
 
 Las playlists han sido seleccionadas con intención de analizar sus características según el estado de ánimo que representan para así poder entrenar un modelo que recomiende una canción según tu estado de ánimo.  
+## Documentos:  
+Carpetas:  
+"Notebooks": Aquí se encuentran los Jupyter Notebooks que he ido elaborando con explicaciones detalladas de las fases.  
+"data": Donde se alojan los csv.  
+"img": Donde se alojan las imagenes y gifs utilizados para la app.  
+"PowerBi": Aquí aparecen tanto el dashboard que aparece en la app como otro dashboard que en principio se iba a utilizar para la app, pero uno de los gráficos no soportaba la publicación en web.  
+Archivos:  
+app.py: archivo python donde se aloja la aplicación en streamlit.  
+
 
 ## Características de las canciones:  
 | audio_feature | Descripción | Valores |
@@ -40,13 +49,14 @@ Las playlists han sido seleccionadas con intención de analizar sus característ
 Librería spotipy: https://spotipy.readthedocs.io/en/2.19.0/  
 Características de las pistas: https://developer.spotify.com/documentation/web-api/reference/get-audio-features  
 Gifs: https://medium.com/@nuriaalcarazesteve/spotify-nueva-funcionalidad-8ad74cbad77e
-Powerbi:  
-Logos: https://developer.spotify.com/documentation/design  
-Iconos: https://www.freepik.com/icon/group_1464029#position=95&page=4&term=mood&fromView=keyword  
-Fondo lienzo: https://www.pexels.com/photo/grayscale-piano-keys-159420/  
+*Powerbi*:  
+- Logos: https://developer.spotify.com/documentation/design  
+- Iconos: https://www.freepik.com/icon/group_1464029#position=95&page=4&term=mood&fromView=keyword  
+- Fondo lienzo: https://www.pexels.com/photo/grayscale-piano-keys-159420/  
 Akkio: https://app.akkio.com/  
 Fuentes útiles: https://rstudio-pubs-static.s3.amazonaws.com/716221_92850e1ae9224bb0b6f0e2a58b42f9b4.html  
 https://towardsdatascience.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50  
 https://postindustria.com/how-much-data-is-required-for-machine-learning/#:~:text=The%20most%20common%20way%20to,parameters%20in%20your%20data%20set  
 PCA: https://scikit-learn.org/stable/modules/decomposition.html#pca  
-Random Forest: https://scikit-learn.org/stable/modules/ensemble.html#forest
+Random Forest: https://scikit-learn.org/stable/modules/ensemble.html#forest  
+Se ha utilizado ChatGPT para adaptar algún gráfico en la herramienta streamlit y para corregir errores: IA abierta. (2023). ChatGPT (versión del 14 de marzo) [Modelo de lenguaje grande]. https://chat.openai.com/chat
