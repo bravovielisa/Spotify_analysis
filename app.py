@@ -200,7 +200,7 @@ if selected_option == 'Inicio':
     st.markdown("""<span style='text-align: center; color: black;'>Para este proyecto se me ha ocurrido investigar las entrañas de una de mis aplicaciones favoritas: Spotify💚.  
                 Como amante de la música que soy me parecía interesante tener la oportunidad de poder navegar en su base de datos.  
                 </h2>""", unsafe_allow_html=True)
-    st.markdown('''Este proyecto pretende analizar, a través de Python, diferentes fases relacionadas con el análisis y la ciencia de datos, desde la importación del dataset, hasta la elaboración de algoritmos de clasificación y de regresión.   
+    st.markdown('''Este proyecto pretende analizar, a través de Python, diferentes fases relacionadas con el análisis y la ciencia de datos, desde la importación del dataset, hasta la elaboración de un algoritmo de clasificación e incluso de la presentación de un modelo elaborado por una IA.   
                 ''')
     st.write('''No te olvides de echarle un vistazo al código 👀.  
              Encontrarás cada fase explicada en los "jupyter notebooks" dentro de la carpeta de [Notebooks](https://github.com/bravovielisa/Spotify_analysis)''')
