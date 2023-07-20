@@ -9,6 +9,14 @@ import plotly.graph_objects as go
 from PIL import Image #Para poder leer las imagenes jpg
 import base64 #Para el gif
 import io #Para ver la df.info()
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.decomposition import PCA
+from sklearn.datasets import make_blobs
+from sklearn.cluster import KMeans
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
+import pickle
 #-------------------LIBRERIAS-----------------------#
 
 
@@ -68,6 +76,7 @@ st.sidebar.markdown("</div>", unsafe_allow_html=True)
 #Dataframes
 df = pd.read_csv('data/datos.csv')
 df1 = pd.read_csv('data/no_lej_data.csv')
+dfml = df1[['Mood','popularity','danceability','energy','loudness','instrumentalness','valence']]
 
 #--------------------gráficas----------------------------#
 # Nulos:
@@ -77,23 +86,90 @@ sns.heatmap(df.isnull(), yticklabels=False, cbar=False, cmap='Set2', ax=ax)
 mood_values = df['Mood'].value_counts()
 fig1 = px.pie(mood_values, values=mood_values.values, names=mood_values.index, title='Distribución tamaño de la muestra:',template='plotly_white')
 
-# Categoricos barras:
+#-----Categoricos barras:
 top_10_artists = df['artist_name'].value_counts().head(10)
 # Agrupar los datos por 'artist_name' y 'Mood' y contar las apariciones
 grouped_df = df.groupby(['artist_name', 'Mood']).size().reset_index(name='count')
 grouped_df = grouped_df[grouped_df['artist_name'].isin(top_10_artists.index)]
-# Crear el gráfico de barras apiladas utilizando Plotly Express
+#----Crear el gráfico de barras apiladas utilizando Plotly Express
 fig2 = px.bar(grouped_df, x='artist_name', y='count', color='Mood', barmode='stack', template='plotly_white',
              labels={'artist_name': 'Artista', 'count': 'Nº de veces que aparece'},
              title='Top 10 artistas más repetidos por estado de ánimo')
 fig2.update_layout(xaxis={'categoryorder':'total descending'}) #Así ordenamos el grafico de barras
-#Correlaciones
+#------Correlaciones
 plt.figure(figsize=(10, 8))
 # define the mask to set the values in the upper triangle to True
 mask = np.triu(np.ones_like(df1.select_dtypes(include=[np.number]).corr(), dtype=bool))
 heatmap = sns.heatmap(df1.select_dtypes(include=[np.number]).corr(), mask=mask, vmin=-1, vmax=1, annot=True, cmap='PiYG')
 heatmap.set_title('Correlaciones', fontdict={'fontsize':18}, pad=16)
 
+#------Regla del codo
+
+
+#data o features // target o labels
+target = dfml['Mood']
+data_df = dfml.drop(columns=['Mood'])
+X = data_df.values
+y = target.values
+
+x_scaled = StandardScaler().fit_transform(X)
+
+inertia_dct = {}
+for i in range(2, 10): #Rango de grupos que queremos crear, sino vieramos ningún codo ampliariamos el rango
+    km = KMeans(n_clusters=i, max_iter=150, random_state=42)
+    km.fit(X)
+    inertia_dct[i] = km.inertia_
+
+# Dibujamos con Plotly Express
+fig3 = px.line(x=list(inertia_dct.keys()), y=list(inertia_dct.values()), 
+               labels={'x': 'Clusters', 'y': 'Inercia'},
+               title='Regla del codo')
+
+#------Evaluación del modelo de clasificación
+target_names = {
+    0: 'Happy',
+    1: 'Sad',
+    2: 'Anger',
+    3: 'Focus'
+}
+
+# Agregar las etiquetas de emociones directamente al DataFrame data_df
+y_mapped = target.map({v: k for k, v in target_names.items()})
+
+pca = PCA(n_components=4) # 4 según la regla del codo
+X_pca = pca.fit_transform(x_scaled)
+
+ 
+pca_df = pd.DataFrame(
+    data=X_pca, 
+    columns=['PC1', 'PC2', 'PC3','PC4'])
+
+# Agregar las etiquetas de emociones mapeadas al DataFrame pca_df
+pca_df['target'] = y_mapped
+
+X_train, X_test, y_train, y_test = train_test_split(X_pca, y, stratify=y, test_size=0.25, random_state=42)
+RFC = RandomForestClassifier()
+RFC.fit(X_train, y_train)
+y_pred = RFC.predict(X_test)
+
+accuracy = accuracy_score(y_test, y_pred)
+# Datos del Classification Report
+data_re = {
+    'Mood': ['Anger', 'Focus', 'Happy', 'Sad'],
+    'precision': [0.92, 1.00, 0.90, 0.90],
+    'recall': [1.00, 1.00, 0.90, 0.86],
+    'f1-score': [0.96, 1.00, 0.90, 0.88],
+    'support': [12, 24, 21, 21]
+}
+
+# Crear el DataFrame de pandas sin el índice
+report = pd.DataFrame(data_re).set_index('Mood')
+
+confusion_mat = np.array([[12, 0, 0, 0],
+                          [0, 24, 0, 0],
+                          [0, 0, 19, 2],
+                          [1, 0, 2, 18]])
+confusion_mat_str = '\n'.join(['\t'.join([str(cell) for cell in row]) for row in confusion_mat])
 
 #--------------------gráficas----------------------------#
 
@@ -127,7 +203,7 @@ if selected_option == 'Inicio':
     st.markdown('''Este proyecto pretende analizar, a través de Python, diferentes fases relacionadas con el análisis y la ciencia de datos, desde la importación del dataset, hasta la elaboración de algoritmos de clasificación y de regresión.   
                 ''')
     st.write('''No te olvides de echarle un vistazo al código 👀.  
-             Encontrarás cada fase explicada en los "jupyter notebooks" dentro de la carpeta de Notebooks: https://github.com/bravovielisa/Spotify_analysis''')
+             Encontrarás cada fase explicada en los "jupyter notebooks" dentro de la carpeta de [Notebooks](https://github.com/bravovielisa/Spotify_analysis)''')
     st.markdown('''<span style='text-align: center; color: green;'>Para entender mejor el proceso, nos centraremos en una serie de playlists seleccionadas personalmente y creadas por Spotify que transmiten o pretenden transmitir sensaciones relacionadas con tu **estado de ánimo**.</h2>''', unsafe_allow_html=True)
     
     
@@ -211,7 +287,7 @@ if selected_option == 'Inicio':
 **time_signature**: Un compás estimado. El compás es una convención de notación que especifica cuántos tiempos hay en cada compás. El compás oscila entre 3 y 7, lo que indica compases de "3/4" a "7/4".  
 **track_href**: Un enlace al terminal de la API web que proporciona todos los detalles de la pista.  
 **song_uri**: Un enlace al terminal de la API web que proporciona acceso a la pista.''')
-    st.write('En cuanto a la tonalidad podemos consultar la siguiente página para entenderlo mejor https://en.wikipedia.org/wiki/Pitch_class. No obstante en esta tabla se resume a que corresponde cada valor de la Pitch Class:')
+    st.write('En cuanto a la tonalidad podemos consultar la siguiente [página](https://en.wikipedia.org/wiki/Pitch_class) para entenderlo mejor. No obstante en esta tabla se resume a que corresponde cada valor de la Pitch Class:')
     col1, col2, col3 = st.columns(3)
     with col1:
         st.write('')
@@ -238,7 +314,7 @@ if selected_option == 'Importación y preprocesamiento':
         st.markdown(title_html2, unsafe_allow_html=True)
         
         st.write('**Spotipy** es una biblioteca de Python que permite interactuar con la **API de Spotify**. Se utiliza para acceder y manipular datos de Spotify, como obtener información de canciones, artistas, álbumes, listas de reproducción y realizar acciones como reproducir pistas, crear listas de reproducción y mucho más.')
-        st.write('Para acceder a los datos de Spotify necesitamos leer las credenciales que nos da la API: clientid y client_secret en su web https://developer.spotify.com/dashboard (después de haber dado de alta nuestra app).')
+        st.write('Para acceder a los datos de Spotify necesitamos leer las credenciales que nos da la API: clientid y client_secret en su [web](https://developer.spotify.com/dashboard)  (después de haber dado de alta nuestra app).')
         code1='''import spotipy
         from spotipy.oauth2 import SpotifyClientCredentials
 
@@ -251,11 +327,11 @@ if selected_option == 'Importación y preprocesamiento':
         sp = spotipy.Spotify(client_credentials_manager = client_credentials_manager)'''
         st.code(code1, language='python')
         st.write('Las credenciales como se puede ver en el código están guardados en un archivo .txt')
-        st.write('Para seguir viendo como se importa cada uno de los parámetros de las playlists seleccionadas ir a: https://github.com/bravovielisa/Spotify_analysis/blob/main/Notebooks/Import_data.ipynb')
+        st.write('Para seguir viendo como se importa cada uno de los parámetros de las playlists seleccionadas ver el Notebook [Import_data](https://github.com/bravovielisa/Spotify_analysis/blob/main/Notebooks/Import_data.ipynb) ')
         
     with tab2:
         title_html3 = """
-        <h1 style="color: #1db954;">Preprocesamiento 📐:</h1>"""
+        <h1 style="color: #1db954;">Preprocesamiento 🛠️:</h1>"""
         st.markdown(title_html3, unsafe_allow_html=True)
         
         st.subheader('Modificación de valores de la columna playlist_name por estado de ánimo:')
@@ -313,7 +389,7 @@ if selected_option == 'EDA':
                     Si vemos que más adelante nos da problemas el modelo entrenado eliminaremos o no tendremos en cuenta este estado de ánimo dependiendo del número de parámetros que se utilicen.  
                     En general, se suele decir que se necesitan al menos varias decenas o cientos de muestras de entrenamiento por cada variable de entrada (característica) que se utilice en el modelo. Esto se conoce como la regla de "diez veces el número de variables por muestra". Por ejemplo, si tienes 10 características, podrías necesitar al menos 100 muestras de entrenamiento.  
                     Así que, en principio, mi análisis se centrará en unos 10 parámetros aproximadamente para que se cumpla esta regla, por lo menos para los cuatro primeros estados de ánimo.  
-                    https://postindustria.com/how-much-data-is-required-for-machine-learning/#:~:text=The%20most%20common%20way%20to,parameters%20in%20your%20data%20set.''')
+                    Ver [fuente](https://postindustria.com/how-much-data-is-required-for-machine-learning/#:~:text=The%20most%20common%20way%20to,parameters%20in%20your%20data%20set).''')
         st.write('')
         st.write('')
         
@@ -349,19 +425,109 @@ if selected_option == 'EDA':
 #--------------------------------------Machine Learning--------------------------------------#     
 if selected_option == 'Machine Learning':
     title_html5 = """
-            <h1 style="color: #1db954;">Algoritmo PCA 🤖:</h1>"""
+            <h1 style="color: #1db954;">CDA: Algoritmo PCA y Random Forest 🧮</h1>"""
     st.markdown(title_html5, unsafe_allow_html=True)
-    st.markdown('''El PCA (Principal Component Analysis) identifica la dimensión intrínseca de un conjunto de datos.  
+    st.subheader('PCA (Principal Component Analysis)')
+    st.markdown('''No todas las características son necesariamente útiles para la predicción. Por lo tanto, podemos eliminar esas características ruidosas y crear un modelo más rápido.  
+    Para ello el PCA es un candidato ideal para realizar este tipo de reducción de dimensiones.  
+    El PCA identifica la dimensión intrínseca de un conjunto de datos.  
     En otras palabras, identifica el menor número de características necesarias para realizar una predicción precisa.  
     Un conjunto de datos puede tener muchas características, pero no todas son esenciales para la predicción.  
     Las características que se conservan son las que tienen una varianza significativa.  
     El mapeo lineal de los datos a un espacio de menor dimensión se realiza de forma que se maximice la varianza de los datos.  
     PCA asume que las características con baja varianza son irrelevantes y las características con alta varianza son informativas.''')  
-    st.write('Para saber más sobre este logaritmo consulta: https://www.jcchouinard.com/pca-with-python/#PCA_Examples_From_This_Tutorial')
+    st.write('Para saber más sobre este logaritmo consulte su [documentación](https://scikit-learn.org/stable/modules/decomposition.html#pca).')
+    st.write('')
+    st.write('Primero vamos a ver cuantos grupos de datos son óptimos para aplicarlo en el algoritmo a través de la regla del codo:')
+    code6 = '''dfml = df[['Mood','popularity','danceability','energy','loudness','instrumentalness','valence']]
+    #data o features // target o labels
+    target = dfml['Mood']
+    data_df = dfml.drop(columns=['Mood'])
+    X = data_df.values
+    y = target.values
+                        
+    # Iteramos y calculamos inercia
+    inertia_dct = {}
+    for i in range(2, 10):
+        km = KMeans(n_clusters=i, max_iter=150, random_state=42)
+        km.fit(X)
+        inertia_dct[i] = km.inertia_
+
+    # Dibujamos
+    fig, ax = plt.subplots(figsize=(6, 4))
+    sns.lineplot(x=list(inertia_dct.keys()), y=list(inertia_dct.values()), ax=ax)
+    ax.set_title('Regla del codo')
+    ax.set_xlabel('Clusters')
+    ax.set_ylabel('Inercia')
+    plt.plot()'''
+    st.code(code6, language='python')
+    st.write('''Seleccionamos 4 clusters porque es el punto con mayor diferencia en la inercia, hay un cambio más brusco en la línea, la inercia en K-Means calcula cuan bien se han dividido los grupos o clusters. Mide cuán compactos y cercanos están los puntos dentro de cada clúster a través de la sdistancias cuadradas entre los puntos y los centros de cada clúster.  
+             Mejor selección cuanto menor sea la inercia porque los puntos estarán más cercanos entre si.''')
+    st.plotly_chart(fig3)
+    
+    st.write('Aplicamos el algoritmo PCA indicando 4 número de componentes:')
+    code7 = '''target_names = {
+    0: 'Happy',
+    1: 'Sad',
+    2: 'Anger',
+    3: 'Focus'
+}
+
+# Agregamos las etiquetas de emociones directamente al DataFrame:
+y_mapped = target.map({v: k for k, v in target_names.items()})
+
+pca = PCA(n_components=4) # 4 según la regla del codo
+X_pca = pca.fit_transform(x_scaled)
+
+pca_df = pd.DataFrame(
+    data=X_pca, 
+    columns=['PC1', 'PC2', 'PC3','PC4'])
+
+# Agregamos las etiquetas de emociones mapeadas al DataFrame pca_df
+pca_df['target'] = y_mapped'''
+    st.code(code7, language='python')
+    st.write('Estos nuevos valores de componentes principales retienen la mayor parte de la información relevante de los datos originales mientras reducen la dimensionalidad del conjunto de datos.')
+    st.write('Ahora que tenemos ya que tenemos el dataset tratado y optimizado vamos a construir nuestro modelo de predicción utilizando el algoritmo RandomForestClassifier:')
+    st.subheader('Random Forest Classifier')
+    st.write('''Random Forest Classifier se utiliza para implementar el algoritmo de Random Forest en problemas de clasificación.  
+             Es un metaestimador que ajusta varios clasificadores de árboles de decisión en varias submuestras del conjunto de datos y utiliza el promedio para mejorar la precisión predictiva y controlar el sobreajuste (cuando un modelo se ajusta demasiado a los datos de entrenamiento y no generaliza bien a nuevos datos).  
+             Para entender mejor este algoritmo ver su [documentación](https://scikit-learn.org/stable/modules/ensemble.html#forest)''')
+    st.write('Aplicando el siguiente código obtendremos nuestro modelo RFC:')
+    code8='''X_train, X_test, y_train, y_test = train_test_split(X_pca, y, stratify=y, test_size=0.25, random_state=42)
+RFC = RandomForestClassifier()
+RFC.fit(X_train, y_train)
+y_pred = RFC.predict(X_test)
+    '''
+    st.code(code8, language='python')
+    st.write('Evaluamos el modelo:')
+    code9='''accuracy = accuracy_score(y_test, y_pred)
+report = classification_report(y_test, y_pred)
+confusion_mat = confusion_matrix(y_test, y_pred)
+
+print("Accuracy:", accuracy)
+print("Classification Report:\n", report)
+print("Confusion Matrix:\n", confusion_mat)'''
+    st.write("Accuracy:", accuracy)
+    st.write("Classification Report:")
+    st.table(report)
+    st.write("Confusion Matrix:")
+    col1, col2, col3,col4, col5 = st.columns(5)
+    with col1:
+        st.write('')
+    with col2:    
+        st.write('')
+    with col3:
+        st.markdown(f'```\n{confusion_mat_str}\n```')
+    with col4:    
+        st.write('')
+    with col5:    
+        st.write('')
+    
+    st.markdown('Un accuracy del 0.94 significa que el modelo ha clasificado correctamente aproximadamente el 94% de las muestras en el conjunto de prueba (X_test). En otras palabras, de todas las muestras que el modelo ha intentado clasificar, el 94% de ellas fueron clasificadas correctamente y el 6% fueron clasificadas incorrectamente.')
     
     
     title_html6 = """
-            <h1 style="color: #1db954;">Utilizando la IA: AKKIO 🤖:</h1>"""
+            <h1 style="color: #1db954;">Utilizando la IA: AKKIO 🤖</h1>"""
     st.markdown(title_html6, unsafe_allow_html=True)
     
     st.write('''Akkio es una herramienta que utiliza inteligencia artificial para predecir resultados basándose en datos existentes.  
@@ -385,3 +551,5 @@ if selected_option == 'Machine Learning':
         st.image(image8, width=600)
     with col3:
         st.write('')
+        
+    

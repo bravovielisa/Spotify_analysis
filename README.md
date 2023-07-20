@@ -38,12 +38,15 @@ Las playlists han sido seleccionadas con intención de analizar sus característ
 
 ## Bibliografía:  
 Librería spotipy: https://spotipy.readthedocs.io/en/2.19.0/  
-Características de las pistas: https://developer.spotify.com/documentation/web-api/reference/get-audio-features
-https://towardsdatascience.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50  
-https://postindustria.com/how-much-data-is-required-for-machine-learning/#:~:text=The%20most%20common%20way%20to,parameters%20in%20your%20data%20set.  
+Características de las pistas: https://developer.spotify.com/documentation/web-api/reference/get-audio-features  
 Gifs: https://medium.com/@nuriaalcarazesteve/spotify-nueva-funcionalidad-8ad74cbad77e
 Powerbi:  
 Logos: https://developer.spotify.com/documentation/design  
 Iconos: https://www.freepik.com/icon/group_1464029#position=95&page=4&term=mood&fromView=keyword  
 Fondo lienzo: https://www.pexels.com/photo/grayscale-piano-keys-159420/  
-Akkio: https://app.akkio.com/
+Akkio: https://app.akkio.com/  
+Fuentes útiles: https://rstudio-pubs-static.s3.amazonaws.com/716221_92850e1ae9224bb0b6f0e2a58b42f9b4.html  
+https://towardsdatascience.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50  
+https://postindustria.com/how-much-data-is-required-for-machine-learning/#:~:text=The%20most%20common%20way%20to,parameters%20in%20your%20data%20set  
+PCA: https://scikit-learn.org/stable/modules/decomposition.html#pca  
+Random Forest: https://scikit-learn.org/stable/modules/ensemble.html#forest
