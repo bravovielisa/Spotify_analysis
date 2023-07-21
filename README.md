@@ -53,6 +53,8 @@ Gifs: https://medium.com/@nuriaalcarazesteve/spotify-nueva-funcionalidad-8ad74cb
 - Logos: https://developer.spotify.com/documentation/design  
 - Iconos: https://www.freepik.com/icon/group_1464029#position=95&page=4&term=mood&fromView=keyword  
 - Fondo lienzo: https://www.pexels.com/photo/grayscale-piano-keys-159420/  
+
+
 Akkio: https://app.akkio.com/  
 Fuentes útiles: https://rstudio-pubs-static.s3.amazonaws.com/716221_92850e1ae9224bb0b6f0e2a58b42f9b4.html  
 https://towardsdatascience.com/extracting-song-data-from-the-spotify-api-using-python-b1e79388d50  
