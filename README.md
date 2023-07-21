@@ -1,6 +1,7 @@
 ![Logo Image](./img/logo.png)
 ## Introducción:  
 Este proyecto pretende analizar una serie de playlists de Spotify a través de su API y la librería de Python spotipy.  
+Ver app en streamlit: https://spotifymoodsanalysis.streamlit.app/  
 
 
 Las playlists han sido seleccionadas con intención de analizar sus características según el estado de ánimo que representan para así poder entrenar un modelo que recomiende una canción según tu estado de ánimo.  
