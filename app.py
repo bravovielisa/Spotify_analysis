@@ -523,7 +523,7 @@ print("Confusion Matrix:\n", confusion_mat)'''
         st.write('')
     with col5:    
         st.write('')
-    
+    st.write('')
     st.markdown('Un accuracy del 0.94 significa que el modelo ha clasificado correctamente aproximadamente el 94% de las muestras en el conjunto de prueba (X_test). En otras palabras, de todas las muestras que el modelo ha intentado clasificar, el 94% de ellas fueron clasificadas correctamente y el 6% fueron clasificadas incorrectamente.')
     
     
