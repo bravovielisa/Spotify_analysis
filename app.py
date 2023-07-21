@@ -408,6 +408,7 @@ if selected_option == 'EDA':
             main()
 
         st.subheader('Correlaciones:')
+        st.write('Para el cálculo de las correlaciones se han eliminado los "major outliers" o valores muy lejanos como propone John Tukey, el padre de la ciencia de datos, en su libro "Exploratory Data Analysis"')
         st.write('''La variable "valence", al ser la que marca supuestamente el estado de ánimo de las canciones, nos indicará aquellas variables relacionadas con los estados de ánimo.  
                  Es decir, aquellas variables que tengan correlación con "valence" tendrán relación con el estado de ánimo.''')     
         st.write('')
