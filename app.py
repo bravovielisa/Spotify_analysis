@@ -34,7 +34,7 @@ st.set_page_config(
 )
 
 # Para que a la gente que use el codigo no le aparezcan los warnings de cambios en las librerias ponemos:
-st.set_option('deprecation.showPyplotGlobalUse', False)
+#st.set_option('deprecation.showPyplotGlobalUse', False) da error en streamlit esta linea
 
 #-------------------CONFIGURACIÓN-----------------------#
 
